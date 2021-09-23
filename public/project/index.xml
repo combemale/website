@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/project/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/</link>
+    </image>
+    
+    <item>
+      <title>Intelligence des process de support et des communautés</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/ipsco/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/ipsco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OneWay</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/oneway/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/oneway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Reuse of Language Components  (LangComponent)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/langcomponent/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/langcomponent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debug4Science</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/debug4science/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/debug4science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>French Research Network on Model-Driven Engineering for Complex Systems (IDM4SCO)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/idm4sco/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/idm4sco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLObalization in Systems Engineering (GLOSE)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/glose/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/glose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile Language Engineering (ALE)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/ale/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/ale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering xDSML (EMMA)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/emma/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/emma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kaulua</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/kaulua/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/kaulua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilient Software Science (RESIST)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/resist/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/resist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DSL Families for Packet Filtering Policy (Family)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/family/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/family/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain-Specific Metamodeling for Filtering Policy (FPML)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/fpml/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/fpml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>éCosytème pour la pLAte-foRme d&#39;Ingénierie sysTème melodY (CLARITY)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/clarity/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/clarity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Paradigm Modelling for Cyber-Physical Systems (MPM4CPS)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/mpm4cps/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/mpm4cps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIVERSIFY</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/diversify/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/diversify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model-Based Security Analysis at Runtime (MBSAR)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/mbsar/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/mbsar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generic Environment for Models of Computation (ANR GEMOC)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/anrgemoc/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/anrgemoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingénierie du logiciel pour les systèmes hétérogènes : bilan, verrous et défis (AS GEMOC)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/asgemoc/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/asgemoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RELATE</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/relate/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/relate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variability in Model Driven Engineering (VaryMDE)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/varymde/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/varymde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CIFRE Sodifrance</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/cifresodifrance/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/cifresodifrance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User-Centric Safe Adaption of Assisted Living Systems</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/als/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/als/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Platform for the Engineering of Embedded Systems (OPEES)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/opees/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/opees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toolkit in OPen source for Critical Applications &amp;amp; SystEms Development (TOPCASED)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/topcased/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/topcased/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

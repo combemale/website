@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Students | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/student/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/student/index.xml" rel="self" type="application/rss+xml" />
+    <description>Students</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>Students</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bumiller-phd/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bumiller-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-phd/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Adaptable Virtual Machines</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-msc/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/chebbi/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/chebbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/sallou/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/sallou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jeanjean-phd/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jeanjean-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards unpredictable languages</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jeanjean/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jeanjean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/coulon/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/coulon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/leroy/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/leroy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On modularity and performances of external domain-specific language implementations</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/leduc/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/leduc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contributions on Approximate Computing Techniques and How to Measure Them</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/cancio/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/cancio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Composition and Interoperability for External Domain-Specific Language Engineering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/degueule/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/degueule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Software Product Lines Engineering in the Construction of Domain Specific Languages</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/mendez/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/mendez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Execution Trace Management to Support Dynamic V&amp;amp;V for Executable DSMLs</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bousse/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bousse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Requirements management led by formal verification</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bousse-msc/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bousse-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal and tool-supported operator for multi-formalism modelling</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/marchand/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/marchand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variability management and automation of software development processes</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/rouille/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/rouille/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typing facilities for language engineering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/guy/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/guy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coping with Modular Modelling in fUML</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/fonseca/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/fonseca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PLC programs modeling and formal verification using MDE and Ladder Diagrams</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bender/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bender/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

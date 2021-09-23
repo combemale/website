@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>currentphd | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/tag/currentphd/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/tag/currentphd/index.xml" rel="self" type="application/rss+xml" />
+    <description>currentphd</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>currentphd</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/tag/currentphd/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bumiller-phd/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bumiller-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-phd/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/chebbi/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/chebbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/sallou/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/sallou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jeanjean-phd/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jeanjean-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/coulon/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/coulon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/leroy/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/leroy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

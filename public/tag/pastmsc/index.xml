@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pastmsc | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/tag/pastmsc/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/tag/pastmsc/index.xml" rel="self" type="application/rss+xml" />
+    <description>pastmsc</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>pastmsc</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/tag/pastmsc/</link>
+    </image>
+    
+    <item>
+      <title>Self-Adaptable Virtual Machines</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-msc/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards unpredictable languages</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/jeanjean/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/jeanjean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Requirements management led by formal verification</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bousse-msc/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bousse-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal and tool-supported operator for multi-formalism modelling</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/marchand/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/marchand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coping with Modular Modelling in fUML</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/fonseca/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/fonseca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PLC programs modeling and formal verification using MDE and Ladder Diagrams</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bender/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bender/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

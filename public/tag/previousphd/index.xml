@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>previousphd | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/tag/previousphd/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/tag/previousphd/index.xml" rel="self" type="application/rss+xml" />
+    <description>previousphd</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>previousphd</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/tag/previousphd/</link>
+    </image>
+    
+    <item>
+      <title>On modularity and performances of external domain-specific language implementations</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/leduc/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/leduc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contributions on Approximate Computing Techniques and How to Measure Them</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/cancio/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/cancio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Composition and Interoperability for External Domain-Specific Language Engineering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/degueule/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/degueule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Software Product Lines Engineering in the Construction of Domain Specific Languages</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/mendez/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/mendez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Execution Trace Management to Support Dynamic V&amp;amp;V for Executable DSMLs</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/bousse/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/bousse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variability management and automation of software development processes</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/rouille/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/rouille/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typing facilities for language engineering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/student/guy/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/student/guy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

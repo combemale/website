@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>course | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/tag/course/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/tag/course/index.xml" rel="self" type="application/rss+xml" />
+    <description>course</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>course</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/tag/course/</link>
+    </image>
+    
+    <item>
+      <title>Course materials for students of the 1st year of the Master ICE</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/ice1/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/ice1/</guid>
+      <description>&lt;h1 id=&#34;ice1-idm-hack-your-own-language&#34;&gt;ICE1-IDM: hack your own language&lt;/h1&gt;
+&lt;p&gt;The course introduces the state-of-the-art tools and methods for developping domain-specific languages.&lt;/p&gt;
+&lt;h2 id=&#34;lectures&#34;&gt;Lectures&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../pub/course/sle/2021-SLE-1-intro.pdf&#34;&gt;Model-Driven (software) Engineering: Hack your Own Language!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../pub/course/sle/2021-SLE-2-dsl.pdf&#34;&gt;Domain-Specific Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../pub/course/sle/2021-SLE-3-ModelManagement.pdf&#34;&gt;Model Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../pub/course/sle/2021-SLE-4-ModelExecution.pdf&#34;&gt;Model Execution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h2&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;&lt;a href=&#34;http://mdebook.irisa.fr/&#34; title=&#34;Textbook on MDE and SLE (CRC Press, 2017)&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wp-image-1464&#34; style=&#34;border: 0px;&#34; src=&#34;../../img/MDEBook_cover-1.jpg&#34; width=&#34;115&#34; /&gt;&lt;/a&gt;  &amp;nbsp;&amp;nbsp;&lt;a href=&#34;http://www.amazon.fr/Ing%C3%A9nierie-Dirig%C3%A9e-par-Mod%C3%A8les-concepts/dp/2729871969&#34; target=&#34;_blank&#34; title=&#34;[French] Manuel sur l&#39;IDM (Ellipses, 2012)&#34;&gt;&lt;img class=&#34;wp-image-1467&#34; style=&#34;border: 0px;&#34; src=&#34;../../img/LivreIDM_ombre-251x300.png&#34; alt=&#34;livreidm_ombre&#34; width=&#34;155&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;labs&#34;&gt;Labs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The labs will consist in realizing by group of 2 the following tutorial. The evaluation will consist in a final demonstration on Thursday, Feb. 4th, 16h-18h.&lt;/p&gt;
+&lt;h3 id=&#34;overall-objectives-of-the-labs&#34;&gt;Overall objectives of the labs&lt;/h3&gt;
+&lt;p&gt;The main objective of this tutorial is to build your own state-machine language (aka. FSM, standing for &lt;em&gt;Finite State Machine&lt;/em&gt;), including the design of the domain (i.e. concepts and relationships between them), and the developement of the associated tooling: a textual editor, a compiler (to Java code), and an interpreter.&lt;/p&gt;
+&lt;p&gt;With FSM, we expect to be able to model a state machine according to the textual syntax proposed in the following example, through a modern editor (e.g., syntax highlighting, autocompletion, validation rules and quick fixes, code folding&amp;hellip;):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fsm door
+    state opened entry &amp;quot;open door&amp;quot; 
+    state init closed entry &amp;quot;close door&amp;quot;
+    transition open closed -&amp;gt; opened [on]
+    transition close opened -&amp;gt; closed [off]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A model (e.g., &lt;em&gt;door&lt;/em&gt;) conforming to your language (aka., &lt;em&gt;FSM&lt;/em&gt;), can then be executed, either through a compilation (i.e. code generation) to a Java-based implementation, or through a direct interpretation (i.e., virtual machine).&lt;/p&gt;
+&lt;p&gt;For the execution, input events (e.g., &lt;em&gt;on&lt;/em&gt; and &lt;em&gt;off&lt;/em&gt;) that drive the execution can be injected through the console by the user.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The proposed &lt;em&gt;FSM&lt;/em&gt; language to be designed and implemented is a simple automata. Automata are a core paradigm for MANY domain-specific languages used in practice, either for high level design (e.g., functional chains in systems engineering), analysis (e.g., termination, composability, etc.), or development (e.g., agent based simulations, reactive programming, etc.).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;part-1---domain-modeling-definition-of-the-ecore-metamodel-for-your-language&#34;&gt;Part 1 - Domain modeling: definition of the Ecore metamodel for your language&lt;/h3&gt;
+&lt;p&gt;The main objective of this part is to capture in an Ecore metamodel the concepts and relationships between them of the domain addressed by your language (i.e. the domain of state machine). You are expected to identify the required concepts to model the aforementionned example, and to reify them into language constructs, in the form of a metamodel defined with the metalanguage Ecore and the associated tooling (e.g., graphical editor), aka. Ecore tools.&lt;/p&gt;
+&lt;p&gt;Within your Eclipse RCP that includes EMF, Xtext and Xtend (e.g., the GEMOC Studio), create an &lt;em&gt;Ecore Modeling Project&lt;/em&gt;. Give a proper name to your project (e.g., &lt;em&gt;fr.ice.fsm.model&lt;/em&gt;) and your package (e.g., &lt;em&gt;fsm&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;From this point, you can start model your domain in the form of an object-oriented metamodel consisting of classes and relationships between them.&lt;/p&gt;
+&lt;p&gt;You may validate your metamodel by right click on your ecore model and &lt;em&gt;Validate&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When this is done, you can generate the Java-based implementation of your domain model by opening the associated genmodel file, right click on the root element and &lt;em&gt;Generate all&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You may assess the expressivity of your metamodel (i.e., check if it well captures your domain, in your case meaning it supports the modeling of the proposed example) by opening the ecore metamodel, right clic on the concept of the root element of your expected model, and choose &lt;em&gt;Create dynamic instance&lt;/em&gt;. Then you can create a model in a tree-based editor, and ensure your metamodel supports the expected model structure.&lt;/p&gt;
+&lt;h3 id=&#34;part-2---textual-modeling-definition-of-the-xtext-editor-for-your-language&#34;&gt;Part 2 - Textual modeling: definition of the Xtext editor for your language&lt;/h3&gt;
+&lt;p&gt;The next step consists into going further than the tree-based editor by developing a modern textual editor. You will use Xtext for this purpose.&lt;/p&gt;
+&lt;p&gt;Create a new &lt;em&gt;Xtext Project From Existing Ecore Models&lt;/em&gt;, select the genmodel file associated to your Ecore metamodel, and select the concept of the root element (i.e., the first model element that will be instantiated when you will create a new model).&lt;/p&gt;
+&lt;p&gt;Take care of properly filling-in the wizard. Then Xtext provides you a first version of a grammar for the textual syntax of your language.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You may need to add the Xtext nature to the project where is your Ecore metamodel to make sure the Xtext project can compile (right clic on the project, &lt;em&gt;configure&lt;/em&gt; and &lt;em&gt;add Xtext nature&lt;/em&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can immediatly start a new eclipse from the current one (&lt;em&gt;Run configuration&amp;hellip;&lt;/em&gt; &amp;gt; &lt;em&gt;Eclipse Application&lt;/em&gt;), create a new empty project and a blank file with the choosen extension. Eclipse will propose you to open it with the corresponding Xtext editor, and then you can use it according to the syntax proposed by the automatically generated grammar.&lt;/p&gt;
+&lt;p&gt;Modify your grammar to make sure you can model a state machine according to the syntax proposed in the initial example. You may also have a try to the following example :)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fsm door
+    state opened entry &amp;quot;open door&amp;quot; 
+    state init closed entry &amp;quot;close door&amp;quot;
+    transition open closed -&amp;gt; opened [on]
+    transition close opened -&amp;gt; closed [off]
+    state broken entry &amp;quot;broken door&amp;quot;
+    transition b1 opened -&amp;gt; broken [warning]
+    transition b2 closed -&amp;gt; broken [warning]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;part-3---compilation-definition-of-the-xtend-based-compiler-for-your-language&#34;&gt;Part 3 - Compilation: definition of the Xtend-based compiler for your language&lt;/h3&gt;
+&lt;p&gt;Up to now, you identified the concepts of your language (which set its expressivity) and you implemented a textual editor to support the edition of conforming models (&lt;em&gt;aka.&lt;/em&gt; programs). The next step is the ability of executing such models. For this purpose, there are two possibilities: by compilation (&lt;em&gt;aka.&lt;/em&gt; code generation) to an executable implementation, or by interpretation (&lt;em&gt;aka.&lt;/em&gt; virtual machine).&lt;/p&gt;
+&lt;p&gt;In this part of the tutorial, we ask you to complement your metamodel with the implementation of an Xtend-based compiler, following the design pattern 
+&lt;a href=&#34;https://refactoring.guru/design-patterns/visitor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visitor&lt;/a&gt;. In the case of FSM, such a compiler must generate a Java-based implementation of a given model (i.e., a state machine) according to the design pattern 
+&lt;a href=&#34;https://refactoring.guru/design-patterns/state&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;state&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Votre compilateur peut avoir comme point d&amp;rsquo;entrée 
+&lt;a href=&#34;https://www.eclipse.org/Xtext/documentation/103_domainmodelnextsteps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;la méthode &lt;em&gt;doGenerate&lt;/em&gt;&lt;/a&gt; de la classe &lt;em&gt;fr.ice.fsm.generator.FsmGenerator&lt;/em&gt; pour être appelé à chaque sauvegarde d&amp;rsquo;un modèle édité avec l&amp;rsquo;éditeur textuel développé avec Xtext dans la partie précédente.&lt;/p&gt;
+&lt;h3 id=&#34;part-4-optional---interpretation-definition-of-the-xtend-based-interpreter-for-your-language&#34;&gt;Part 4 (optional) - Interpretation: definition of the Xtend-based interpreter for your language&lt;/h3&gt;
+&lt;p&gt;In this part, we ask you to develop a new visitor that will interpret a given conforming model instead of generating an implementation in a third party language (i.e. Java in the case of the compiler developped in the previous part). Similarly to a compiler, an interpreter goes through the asbtract syntax tree of a given model. Instead of generating the corresponding code, it interprets the model element in terms of changes in a model state (aka., &lt;em&gt;context&lt;/em&gt;). This is captured in an additional design pattern called 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Interpreter_pattern&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interpreter&lt;/a&gt; that can be used to complement the design pattern 
+&lt;a href=&#34;https://refactoring.guru/design-patterns/visitor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visitor&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;further-material&#34;&gt;Further material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;https://dzone.com/refcardz/essential-emf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Refcardz on EMF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documentations of 
+&lt;a href=&#34;https://www.eclipse.org/Xtext/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xtext&lt;/a&gt; and 
+&lt;a href=&#34;https://www.eclipse.org/xtend/documentation/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xtend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://gemoc.org/studio.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The GEMOC Studio&lt;/a&gt; (incl., EMF, Xtext, Xtend, Sirius&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course materials for ESIR1 students</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/esir/esir1/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/esir/esir1/</guid>
+      <description>&lt;h1 id=&#34;esir1-iot-s6-idom&#34;&gt;ESIR1-IoT-S6-IDOM&lt;/h1&gt;
+&lt;p&gt;The course will introduce the state-of-the-practice tools and methods employed in the software industry to develop modern and complex software-intensive systems.&lt;/p&gt;
+&lt;h2 id=&#34;lectures&#34;&gt;Lectures&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Except the introduction during the first lecture, all lectures will rely on pre-recorded videos&lt;sup&gt;*&lt;/sup&gt; that you can watch asynchronously, at the latest during the slots scheduled in your agenda. The last 30 minutes of each lecture slot will be dedicated to office hours (on the Teams&amp;rsquo; group dedicated to the course), where we can discuss on questions you have on the lecture.&lt;/p&gt;
+&lt;!---
+| Duration | Lecture  | Material | Comment |
+|---|---|---|---|
+| (2h)  | Welcome and Introduction | [slides](#) and [video](#) | synchronous introduction on Teams (team _IDOM2020_) |
+| (6h)  | Tools for Industrial Development | [slides](#) and [video](#)  | asynchronous videos and office hours on Teams |
+| (2h)  | Unit Testing | [slides](#) and [video](#)  | asynchronous videos and office hours on Teams |
+| (2h)  | Agile methods | [slides](#) and [video](#) | asynchronous videos and office hours |
+--&gt; 
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../../pub/course/idom/tools4agiledev.pdf&#34;&gt;Tools for (Java) Development Industrialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1eE_ysybblpW2RdUx7hLvu-ubfH3p05hb/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gestion de dépendance et build&lt;/a&gt;, et 
+&lt;a href=&#34;https://drive.google.com/file/d/1bO-e2d5rscBCZ7LfDfX8iYkBznHkubI8/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;démo Maven&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1VdVK_cFuw2xgFurzAg0W5PgK-SNGaGOD/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gestion de version&lt;/a&gt; avec 
+&lt;a href=&#34;https://drive.google.com/file/d/1KgjNNPdgqcKOpyx-doZG_E6ivjG2DJmb/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Subversion&lt;/a&gt; et 
+&lt;a href=&#34;https://drive.google.com/file/d/15_msaUFkYxPYOO2jJ5VCPsMlATPi_Fpp/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;, et 
+&lt;a href=&#34;https://drive.google.com/file/d/1WOLUTsW4qT_bpuExGarSn2mR-d-yAK8_/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;démo Git&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1-Vr-ehJul7SaORQ1tuVnT2WD1eztcVsA/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intégration continue&lt;/a&gt;, et 
+&lt;a href=&#34;https://drive.google.com/file/d/1Y0qq7Ypzv2Pkt8vzvVwqJRlGI2BkObAr/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;démo Jenkins&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/nMiot3unKck&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Méthodes agiles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt; For this part of the course, we will use the pre-recorded videos provided by 
+&lt;a href=&#34;https://olivier.barais.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Olivier Barais&lt;/a&gt; and 
+&lt;a href=&#34;https://sites.google.com/site/johannbourcier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Johann Bourcier&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;labs&#34;&gt;Labs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The labs will consist in realizing the 
+&lt;a href=&#34;https://github.com/selabs-ur1/mdi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;proposed tutorial&lt;/a&gt;, and the evaluation in a final demonstration complemented with Q&amp;amp;A (Feb 5th, 2021, 16h-18h). I will be online during the labs. Interact with me through the team &lt;em&gt;IDOM2020&lt;/em&gt; on Teams.&lt;/p&gt;
+&lt;h2 id=&#34;further-material&#34;&gt;Further material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIT cheat sheet&lt;/a&gt; by GitHub&lt;/li&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;https://dzone.com/refcardz/getting-started-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Refcardz on Git&lt;/a&gt;, 
+&lt;a href=&#34;https://dzone.com/asset/download/223&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maven&lt;/a&gt; and 
+&lt;a href=&#34;https://dzone.com/asset/download/230&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Looking for good books? Here is a 
+&lt;a href=&#34;https://thesmartcoder.dev/10-must-read-books-for-software-engineers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;currated list&lt;/a&gt; of must-read professional books.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course materials for ESIR2 students</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/esir/esir2/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/esir/esir2/</guid>
+      <description>&lt;h1 id=&#34;esir2-si-s7-vv&#34;&gt;ESIR2-SI-S7-VV&lt;/h1&gt;
+&lt;h2 id=&#34;lectures&#34;&gt;Lectures&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Except the introduction, all lectures will rely on pre-recorded videos&lt;sup&gt;*&lt;/sup&gt; that you can watch asynchronously, at the latest during the slot scheduled in your agenda. The last 30 minutes of each lecture slot will be dedicated to office hours (on the Teams&amp;rsquo; group dedicated to the course), where we can discuss on questions you have on the lecture.&lt;/p&gt;
+&lt;p&gt;If you need reminders on object-oriented programming, please, go through the videos of chapters 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU5gPPUghh6-k-tF1ph53kbC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#1&lt;/a&gt;, 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU4gYS2SRwQeDZmXKVI6YzfM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#2&lt;/a&gt; and 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU6I8FGKSLcuZP8QHEIAdAsX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#3&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Lecture&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 10th, 2020 (8h-10h)&lt;/td&gt;
+&lt;td&gt;Introduction&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/ood/esir2-gl-intro.pdf&#34;&gt;welcome&lt;/a&gt; and 
+&lt;a href=&#34;../../../pub/course/ood/gl-intro-lr.pdf&#34;&gt;introduction to modeling&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous introduction on Teams (team &lt;em&gt;VV2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 10th, 2020 (10h-12h)&lt;/td&gt;
+&lt;td&gt;SOLID&lt;/td&gt;
+&lt;td&gt;videos (chapter 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU5YnB22z3v6xH8sY0M7CPTh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#4&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams (11h00-12h)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 14th, 2020 (8h-10h)&lt;/td&gt;
+&lt;td&gt;GRASP&lt;/td&gt;
+&lt;td&gt;videos (chapter 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU6JrT5Kr29HETOlI2GINm6G&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#5&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams (9h00-10h)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 14th, 2020 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Design patterns&lt;/td&gt;
+&lt;td&gt;videos (chapters 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU6Q1aKOhYH0O8ay-Wr0xjcp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#6&lt;/a&gt; and 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU6nNw7Kzf_zlj437gZAKTQ3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#7&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams (11h00-12h)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 6th, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Design patterns&lt;/td&gt;
+&lt;td&gt;videos (chapters 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU6Q1aKOhYH0O8ay-Wr0xjcp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#6&lt;/a&gt; and 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU6nNw7Kzf_zlj437gZAKTQ3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#7&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams (11h00-12h)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 11th, 2021 (14h-16h)&lt;/td&gt;
+&lt;td&gt;Métriques, Visualisation and Refactoring&lt;/td&gt;
+&lt;td&gt;videos (chapter 
+&lt;a href=&#34;https://www.youtube.com/playlist?list=PLpni-AW3kOU4grn6mpwn24QuY_mXFAjsH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#8&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams (15h00-16h)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt; For this part of the course, we will use the pre-recorded videos provided by 
+&lt;a href=&#34;https://mosser.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Sébastien Mosser&lt;/a&gt; at 
+&lt;a href=&#34;https://uqam.ca/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UQAM&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;labs&#34;&gt;Labs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professors&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt; and 
+&lt;a href=&#34;https://stephaniechallita.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stéphanie Challita&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Labs&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 17th, 2020 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Médiathèque&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/ood/mediateque-sujet2021.pdf&#34;&gt;sujet&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 4th, 2021 (14h-16h)&lt;/td&gt;
+&lt;td&gt;Médiathèque&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/ood/mediateque-conducteur2021.pdf&#34;&gt;correction&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;deadline: 08/01/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 4th, 2021 (16h-18h)&lt;/td&gt;
+&lt;td&gt;Mini-editeur&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/ood/miniediteur-sujet2021.pdf&#34;&gt;sujet&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 6th, 2021 (14h-18h)&lt;/td&gt;
+&lt;td&gt;Mini- editeur&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 11th, 2021 (16h-18h)&lt;/td&gt;
+&lt;td&gt;Mini-editeur&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/ood/miniediteur-conducteur2021.pdf&#34;&gt;correction&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;deadline: 29/01/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Your professors will be online during the labs. Interact with them through the team &lt;em&gt;VV2020&lt;/em&gt; on Teams.&lt;/p&gt;
+&lt;h2 id=&#34;further-material&#34;&gt;Further material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../../pub/course/ood/uml-intro.pdf&#34;&gt;Slides on the UML language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;https://dzone.com/refcardz/getting-started-uml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Refcardz UML cheetsheet&lt;/a&gt; and the 
+&lt;a href=&#34;https://www.uml-diagrams.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UML Diagrams website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;https://dzone.com/refcardz/design-patterns&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Refcardz on Design Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Catalog of design pattern implementations: by 
+&lt;a href=&#34;https://refactoring.guru/design-patterns&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Refactoring.Guru&lt;/a&gt; and 
+&lt;a href=&#34;https://github.com/ace-lectures/pattern-repository&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;S. Mosser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Looking for good books? You may have a look to the textbooks 
+&lt;a href=&#34;https://link.springer.com/book/10.1007%2F978-3-030-24094-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to Software Design with Java&lt;/a&gt;, and 
+&lt;a href=&#34;https://link.springer.com/book/10.1007%2F978-3-319-12742-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UML@Classroom&lt;/a&gt; (
+&lt;a href=&#34;http://www.uml.ac.at/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;). Here is also a 
+&lt;a href=&#34;https://thesmartcoder.dev/10-must-read-books-for-software-engineers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;currated list&lt;/a&gt; of must-read professional books.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;esir2-si-s8-mdi-part-1-incl-siin&#34;&gt;ESIR2-SI-S8-MDI (part 1, incl. SI+IN)&lt;/h1&gt;
+&lt;h2 id=&#34;lectures-1&#34;&gt;Lectures&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Except the introduction during the first lecture, all lectures will rely on pre-recorded videos&lt;sup&gt;*&lt;/sup&gt; that you can watch asynchronously, at the latest during the slots scheduled in your agenda.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Lecture&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb. 1st, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Tools for (Java) Development Industrialization&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/idom/tools4agiledev.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous introduction on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;Gestion de dépendance et build&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1eE_ysybblpW2RdUx7hLvu-ubfH3p05hb/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;, et 
+&lt;a href=&#34;https://drive.google.com/file/d/1bO-e2d5rscBCZ7LfDfX8iYkBznHkubI8/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;démo Maven&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;Gestion de version&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1VdVK_cFuw2xgFurzAg0W5PgK-SNGaGOD/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;, avec 
+&lt;a href=&#34;https://drive.google.com/file/d/1KgjNNPdgqcKOpyx-doZG_E6ivjG2DJmb/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Subversion&lt;/a&gt; et 
+&lt;a href=&#34;https://drive.google.com/file/d/15_msaUFkYxPYOO2jJ5VCPsMlATPi_Fpp/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;, et 
+&lt;a href=&#34;https://drive.google.com/file/d/1WOLUTsW4qT_bpuExGarSn2mR-d-yAK8_/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;démo Git&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;Intégration continue&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1-Vr-ehJul7SaORQ1tuVnT2WD1eztcVsA/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;, et 
+&lt;a href=&#34;https://drive.google.com/file/d/1Y0qq7Ypzv2Pkt8vzvVwqJRlGI2BkObAr/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;démo Jenkins&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;Méthodes agiles&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://youtu.be/nMiot3unKck&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;asynchronous videos and office hours on Teams&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt; For this part of the course, we will use pre-recorded videos provided by 
+&lt;a href=&#34;https://olivier.barais.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Olivier Barais&lt;/a&gt; and 
+&lt;a href=&#34;https://sites.google.com/site/johannbourcier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Johann Bourcier&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;labs-1&#34;&gt;Labs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professors&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt; and 
+&lt;a href=&#34;https://stephaniechallita.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stéphanie Challita&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The labs will consist in implementing the proposed 
+&lt;a href=&#34;https://github.com/selabs-ur1/mdi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial&lt;/a&gt;, and the evaluation will consist in a final demonstration with Q&amp;amp;A (~10min, during the last lecture on Feb. 23rd, 2021, 10h15-12h15). We will be online during the labs. Interact with us through the team &lt;em&gt;MDI2020&lt;/em&gt; on Teams.&lt;/p&gt;
+&lt;p&gt;Tentative timeline for the 
+&lt;a href=&#34;https://github.com/selabs-ur1/mdi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Part 1-4] Maven ~4h (requires lecture on &lt;em&gt;Gestion de dépendance et build&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;[Part 5] Git ~2h (requires lecture on &lt;em&gt;Gestion de version&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;[Part 6] Sonar ~1h (requires lecture on &lt;em&gt;Intégration continue&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;[Part 7] Jenkins ~2h (requires lecture on &lt;em&gt;Intégration continue&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;[Part 8] Gitlab ~3h (requires lecture on &lt;em&gt;Intégration continue&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;further-material-1&#34;&gt;Further material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIT cheat sheet&lt;/a&gt; by GitHub&lt;/li&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;https://dzone.com/refcardz/getting-started-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Refcardz on Git&lt;/a&gt;, 
+&lt;a href=&#34;https://dzone.com/asset/download/223&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maven&lt;/a&gt; and 
+&lt;a href=&#34;https://dzone.com/asset/download/230&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;esir2-si-s8-mdi-part-2&#34;&gt;ESIR2-SI-S8-MDI (part 2)&lt;/h1&gt;
+&lt;h2 id=&#34;lectures-2&#34;&gt;Lectures&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professor&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Lecture&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb. 24th, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Introduction&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/1-introduction.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous introduction on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb. 24th, 2021 (10h-12h), cond.&lt;/td&gt;
+&lt;td&gt;Software testing at glance&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/2-test.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 08th, 2021 (08h-10h)&lt;/td&gt;
+&lt;td&gt;Static analysis&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/3-static-test.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;on campus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 08th, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Dynamic testing&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/4-dynamic-test.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;on campus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 16th, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Integration testing&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/5-integration.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 16th, 2021 (10h-12h), cond.&lt;/td&gt;
+&lt;td&gt;Test qualification and main criteria&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/6-test-qualification.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 16th, 2021 (10h-12h), cond.&lt;/td&gt;
+&lt;td&gt;Mutation testing, and Test automation&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../pub/course/vv/7-mutation.pdf&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;conferences&#34;&gt;Conferences&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 23rd, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Model-Based Testing&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;#&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 26th, 2021 (08h-10h)&lt;/td&gt;
+&lt;td&gt;GUI Testing&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;#&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr. 02nd, 2021 (08h-10h)&lt;/td&gt;
+&lt;td&gt;Security Testing&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;#&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr. 07th, 2021 (14h-16h)&lt;/td&gt;
+&lt;td&gt;Performance Testing&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;#&#34;&gt;slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;labs-2&#34;&gt;Labs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professors&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt; and 
+&lt;a href=&#34;https://www.gwendal-jouneaux.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gwendal Jouneaux&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/selabs-ur1/VV-TP1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Practical Session #1&lt;/a&gt; (4h)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/selabs-ur1/VV-TP2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Practical Session #2&lt;/a&gt; (4h)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/selabs-ur1/VV-TP3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Practical Session #3&lt;/a&gt; (4h)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Optional labs:&lt;/em&gt; if you want to experiment property-based testing and GUI testing, you may optionally have a look to 
+&lt;a href=&#34;https://github.com/selabs-ur1/VV-TP4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab #4&lt;/a&gt; and 
+&lt;a href=&#34;https://github.com/selabs-ur1/VV-TP5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab #5&lt;/a&gt;, respectively.&lt;/p&gt;
+&lt;h2 id=&#34;evaluation&#34;&gt;Evaluation&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Lecture&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr. 08th, 2021 (10h-12h)&lt;/td&gt;
+&lt;td&gt;Evaluation&lt;/td&gt;
+&lt;td&gt;n/a&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;MDI2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;further-material-2&#34;&gt;Further material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;../../../pub/course/vv/vv-textbook-v0.1.pdf&#34;&gt;textbook&lt;/a&gt; of the course&lt;/li&gt;
+&lt;li&gt;Refcardz on 
+&lt;a href=&#34;https://dzone.com/refcardz/junit-and-easymock&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Junit &amp;amp; Easymock&lt;/a&gt;, 
+&lt;a href=&#34;https://dzone.com/refcardz/mockito&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mockito&lt;/a&gt; and 
+&lt;a href=&#34;https://dzone.com/refcardz/getting-started-selenium&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Selenium&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;esir2-si-s8-al-software-architecture&#34;&gt;ESIR2-SI-S8-AL: Software Architecture&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Professors&lt;/strong&gt;: 
+&lt;a href=&#34;https://sites.google.com/site/johannbourcier/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bourcier&lt;/a&gt; and 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lectures-3&#34;&gt;Lectures&lt;/h2&gt;
+&lt;p&gt;Except the introduction, all lectures will rely on pre-recorded videos that you can watch asynchronously.&lt;/p&gt;
+&lt;p&gt;Lecture #1, Apr. 01st, 2021 (08h-10h):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/c1sXv0hvpMc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction architecture logicielle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/tanu4ze5gWM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction à la programmation orientée composant&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lecture #2, Apr. 01st, 2021 (10h-12h):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/pRNNU1KjU5k&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Approche orientée Service - les concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/-_Bhw49UUCE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Approche orientée Service - Les technologies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/KHuQIIMjzrY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Architecture orientée Message : MOM - principes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lecture #3, Apr. 07th, 2021 (08h-10h):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1KBsp9noRrRCrPwHPNVq2B5gkwat54jCD/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to cloud computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/19gr9XsZnyI8ebxVADsdD2M5wAw41so-p/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to cloud-native applications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1NqlkVG_fejyJ0xDlRCuQgdIh4TJcS-cU/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to micro-services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lecture #4, Apr. 12th, 2021 (14h-16h):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1x3fw72g33nbnGYgvgu8Cx8ndItIh7ac3/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to Docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1JAjRAyVvzoBR73syry6uayp0QFhApsNK/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker, under the hood&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1k_xOlctexiOSSCssEzxiOVbpTCAPchoD/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;conclusion on cloud-native applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lectures #5 and #6 (conferences), Apr. 12th, 2021 (16h-18h) and Apr. 20th, 2021 (08h-10h):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/oMxztQBHp_A&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;De Java à un exécutable natif : GraalVM et Quarkus changent la donne&lt;/a&gt; (Emmanuel Bernard)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://youtu.be/S05WsHJZsYk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarkus: Comment faire une appli Java Cloud Native avec Graal VM&lt;/a&gt; (E. Bernard, C. Escoffier)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 
+| Date | Lecture  | Material | Comment |
+|---|---|---|---|
+| Apr. 01st, 2021 (08h-10h)  | Introduction | [slides](#) and [video](#) | synchronous on Teams (team _AL2020_) |
+| Apr. 01st, 2021 (10h-12h)  | Client-server model | [slides](#) and [video](#) | synchronous on Teams (team _AL2020_) |
+| Apr. 07th, 2021 (08h-10h)  | Service-Oriented Architecture, and MOM | [slides](#) and [video](#) | synchronous on Teams (team _AL2020_) |
+| Apr. 12th, 2021 (14h-18h)  | Cloud-native application, microservice architecture and Function-as-a-Service  | [slides](#) and [video](#) | synchronous on Teams (team _AL2020_) |
+
+
+- Introduction to Software Architecture and Component-Based Software Engineering (2h, Johann)
+- n-tier, client/server (2h, Benoit)
+- Service-Oriented Architecture, and MOM (2h, Johann)
+- Cloud-native application, microservice architecture and Function-as-a-Service (4h, Benoit)
+- Eval (2h, Johann/Benoit)
+--&gt;
+&lt;h2 id=&#34;labs-3&#34;&gt;Labs&lt;/h2&gt;
+&lt;p&gt;Based on the aforementioned lectures, you might train yourself (individually) on Docker and Quarkus using the following tutorials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://training.play-with-docker.com/beginner-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker for Beginners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://quarkus.io/guides/getting-started&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarkus Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, you have to constitute a project team of 5 people. Each team has to select a monolith application (to be validated with your professors) and to propose a microservicization of this application. For this purpose, you have to investigate the various tradeoffs (modularization, stateless vs stateful, orchestration vs. choreography, etc.), and to propose the new architecture of the application.&lt;/p&gt;
+&lt;p&gt;As a possible application, you might check-out the 
+&lt;a href=&#34;https://github.com/barais/doodlestudent&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Remote meetings planning&lt;/a&gt; project, understand the application code and its underlying architecture (cf. the videos available on the 
+&lt;a href=&#34;https://github.com/barais/doodlestudent/blob/main/Readme.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;readme&lt;/a&gt;), and make sure it works in development settings (i.e. on localhost).&lt;/p&gt;
+&lt;p&gt;For the evaluation, you will have to present your proposed architecture, and to discuss the various tradeoffs. You are not ask to provide any implementation that will be realized during the following project.&lt;/p&gt;
+&lt;h2 id=&#34;evaluation-1&#34;&gt;Evaluation&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Lecture&lt;/th&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;May 07th, 2021 (08h-10h)&lt;/td&gt;
+&lt;td&gt;Evaluation&lt;/td&gt;
+&lt;td&gt;n/a&lt;/td&gt;
+&lt;td&gt;synchronous on Teams (team &lt;em&gt;AL2020&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;further-material-3&#34;&gt;Further material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refcardz on 
+&lt;a href=&#34;https://dzone.com/refcardz/quarkus-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarkus&lt;/a&gt; and 
+&lt;a href=&#34;https://dzone.com/refcardz/getting-started-with-docker-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;esir2-si-s8-projet-software-development-project&#34;&gt;ESIR2-SI-S8-Projet: Software Development Project&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Professors&lt;/strong&gt;: 
+&lt;a href=&#34;https://sites.google.com/site/johannbourcier/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bourcier&lt;/a&gt;, 
+&lt;a href=&#34;https://stephaniechallita.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stéphanie Challita&lt;/a&gt; and 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;todo&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course materials for ESIR3 students</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/esir/esir3/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/esir/esir3/</guid>
+      <description>&lt;h1 id=&#34;esir3-iot-s9-gliot-systems-engineering&#34;&gt;ESIR3-IoT-S9-GLIoT: Systems Engineering&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Teachers&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt; and 
+&lt;a href=&#34;https://sites.google.com/site/johannbourcier/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bourcier&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../../pub/course/gliot/2020-GLIoT-intro.pdf&#34;&gt;Course introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../../pub/course/gliot/sysml-intro.pdf&#34;&gt;Introduction to Systems Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://gitlab.istic.univ-rennes1.fr/gliot-2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Group on Gitlab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;esir3-si-s9-dlc-devops&#34;&gt;ESIR3-SI-S9-DLC: DevOps&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Teachers&lt;/strong&gt;: 
+&lt;a href=&#34;https://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Combemale&lt;/a&gt; and 
+&lt;a href=&#34;https://www.gwendal-jouneaux.fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gwendal Jouneaux&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;../../../pub/course/devops/2020-DLC-intro.pdf&#34;&gt;Course introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to DevOps: 
+&lt;a href=&#34;../../../pub/course/devops/2020-DLC-DevOps101-lr.pdf&#34;&gt;slides&lt;/a&gt; and 
+&lt;a href=&#34;https://youtu.be/47kTURt5CdM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/selabs-ur1/devops&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/devops/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/devops/</guid>
+      <description>&lt;h4&gt;&lt;a title=&#34;Benoit Combemale&#39;s Homepage&#34; href=&#34;http://combemale.fr&#34; target=&#34;_blank&#34;&gt;Benoit Combemale&lt;/a&gt; (Univ. Rennes 1)&lt;/h4&gt;
+&lt;h2 id=&#34;curriculum&#34;&gt;Curriculum&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction
+&lt;ul&gt;
+&lt;li&gt;Some Facts on Modern Developments&lt;/li&gt;
+&lt;li&gt;State of the Practice (large-scale, polyglot, short term delivery&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;DevOps: current scope, concepts and principles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Get ready for DevOps!
+&lt;ul&gt;
+&lt;li&gt;Execution platform (e.g., virtual machines, containerization and clouds),&lt;/li&gt;
+&lt;li&gt;Software architecture (microservice, stateless, serverless, FaaS),&lt;/li&gt;
+&lt;li&gt;organizational concerns (gitflow and branching, continuous improvement&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Test automation, incl. static analysis, flaky test, code and test coverage, mutation analysis.&lt;/li&gt;
+&lt;li&gt;Build Management, Configuration Management, Release Management
+&lt;ul&gt;
+&lt;li&gt;Software Build (e.g., Maven)&lt;/li&gt;
+&lt;li&gt;Software Delivery (e.g., Docker, Docker Compose)&lt;/li&gt;
+&lt;li&gt;Software Deployment (e.g., Kubernetes)&lt;/li&gt;
+&lt;li&gt;Continuous Integration, Delivery and deployment (e.g., Jenkins)&lt;/li&gt;
+&lt;li&gt;Code quality (e.g., SonarQube)&lt;/li&gt;
+&lt;li&gt;Infrastructure as code (e.g., Ansible, Puppet, chef, SaltStack), software bots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Observability and Measurement: Logging, Tracing and Monitoring (e.g., LogStash, OpenTracing, Kibana)&lt;/li&gt;
+&lt;li&gt;Fuzzing, A/B and Canary Testing&lt;/li&gt;
+&lt;li&gt;Resilience engineering / testing (e.g., Chaos Engineering)&lt;/li&gt;
+&lt;li&gt;DevOps and Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;further-materials&#34;&gt;Further Materials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://teachdevops.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TeachDevOps Initiative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;./papers&#34;&gt;Related research papers&lt;/a&gt; (see section &lt;em&gt;Resilience Engineering&lt;/em&gt; and &lt;em&gt;in Practice&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Model-Driven Engineering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/mde/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/mde/</guid>
+      <description>&lt;h4&gt;&lt;a title=&#34;Benoit Combemale&#39;s Homepage&#34; href=&#34;http://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34;&gt;Benoit Combemale&lt;/a&gt; (Univ. Rennes 1, ESIR &amp;amp; IRISA)
+&lt;a href=&#34;http://diverse.irisa.fr/&#34;&gt;DiverSE team&lt;/a&gt; (&lt;a href=&#34;http://www.irisa.fr&#34;&gt;IRISA&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.inria.fr&#34;&gt;Inria&lt;/a&gt;)
+Campus de Beaulieu
+F-35042 Rennes Cedex
+benoit.combemale AT irisa.fr&lt;/h4&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Model Driven Engineering (MDE) is primarily concerned with reducing the accidental complexities associated with developing complex software-intensive systems. This is accomplished through the use of technologies that support rigorous analysis and transformation of abstract descriptions of software to concrete implementations. At the core of MDE are modeling languages that are typically defined as metamodels. Developers can use these modeling languages to describe complex systems at multiple levels of abstraction and from a variety of perspectives. MDE is essentially concerned with transforming descriptions of software artefacts to other forms that better serve specific purposes. MDE is now becoming mature, and more and more integrated in industrial software development processes to improve quality and productivity, as recognized in various experience reports.&lt;/p&gt;
+&lt;p&gt;This course introduces the cornerstones of MDE using OMG standards and Eclipse-based open source technologies. You will discover how to leverage your experience into domain-specific modelling languages and model transformations. Then, you will learn how to use them to systematize some development tasks (&lt;em&gt;&amp;quot;Why I&amp;rsquo;d like write program that write programs rather than write programs?&amp;ldquo;&lt;/em&gt;), and to lead to better quality software thanks to abstract models throughout the software development process.&lt;/p&gt;
+&lt;h2 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h2&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;&lt;a href=&#34;http://mdebook.irisa.fr/&#34; title=&#34;Textbook on MDE and SLE (CRC Press, 2017)&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wp-image-1464&#34; style=&#34;border: 0px;&#34; src=&#34;../../img/MDEBook_cover-1.jpg&#34; width=&#34;115&#34; /&gt;&lt;/a&gt;  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&#34;http://www.amazon.fr/Ing%C3%A9nierie-Dirig%C3%A9e-par-Mod%C3%A8les-concepts/dp/2729871969&#34; target=&#34;_blank&#34; title=&#34;[French] Manuel sur l&#39;IDM (Ellipses, 2012)&#34;&gt;&lt;img class=&#34;wp-image-1467&#34; style=&#34;border: 0px;&#34; src=&#34;../../img/LivreIDM_ombre-251x300.png&#34; alt=&#34;livreidm_ombre&#34; width=&#34;155&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lectures-materials&#34;&gt;Lectures (Materials)&lt;/h2&gt;
+&lt;h3 id=&#34;basics&#34;&gt;Basics&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/FromModelingToMetamodeling-2x2.pdf&#34;&gt;Advanced Features of Software Engineering: from Modeling to Metamodeling...&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/DSLAndXtext-esir3.pdf&#34;&gt;Domain-Specific Languages&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/MetamodelingWithEclipseModelingTutorial-2x2.pdf&#34;&gt;A Tutorial about Metamodeling Using OMG Norms and Eclipse Modeling&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/ocl-cm-slides.pdf&#34;&gt;Object Constraint Language (OCL)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/modeltransformation-cm-slides.pdf&#34;&gt;Model Transformation (Principles, Standards and Examples)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/ModelManagement.pdf&#34;&gt;Model Management with Xtend&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/1011/Kermeta-2010-combemale.pdf&#34;&gt;Kermeta: Breathe Life into your Metamodels&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/atl-cm-slides.pdf&#34;&gt;Atlas Transformation Language (ATL)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;advanced&#34;&gt;Advanced&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/ModelTyping4ModelTransformationReuse.pdf&#34;&gt;Model Typing&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/modelcomposition-2011.pdf&#34;&gt;Model Composition&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/mde-VandV-combemale.pdf&#34;&gt;How to address V&amp;amp;V in Model-Driven Engineering?&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/HyperAgilityUsingModels.pdf&#34;&gt;Hyper-Agility: A Model-Driven Software Agility from Design-Time to Run-Time&lt;/a&gt; (la &lt;a href=&#34;http://mediaserver.univ-rennes1.fr/videos/?video=MEDIA101029105353218&#34; target=&#34;_blank&#34;&gt;vidéo&lt;/a&gt; !)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/1011/mde-pragmatique-diic3-im-11-combemale.pdf&#34;&gt;MDE Pragmatique&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;further-information&#34;&gt;Further Information&lt;/h2&gt;
+&lt;h3 id=&#34;some-documents&#34;&gt;Some Documents&amp;hellip;&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/emf-mosser-2010.pdf&#34;&gt;Métamodéliser avec Eclipse Modeling Framework&lt;/a&gt; (from S. Mosser)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;https://dzone.com/refcardz/essential-emf&#34;&gt;Free refcard about EMF&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://wiki.eclipse.org/Sirius/Tutorials/DomainModelTutorial&#34; target=&#34;_blank&#34;&gt;Tutorial &#34;Define a metamodel with ECore Tools&#34;&lt;/a&gt;
+	&lt;li&gt;The &lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/EN_memento_Kermeta.pdf&#34;&gt;Kermeta memento&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.omg.org/spec/&#34;&gt;OMG Formal Specifications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;some-links&#34;&gt;Some Links&amp;hellip;&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.omg.org&#34;&gt;OMG&lt;/a&gt; (&lt;em&gt;Object Management Group&lt;/em&gt;)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.eclipse.org/modeling/&#34;&gt;Eclipse Modeling&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.kermeta.org/&#34;&gt;Kermeta&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.actionidm.org&#34;&gt;Action IDM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tools: GEMOC Studio, EcoreTools, Xtext, Xtend, ALE, Kermeta 2 (memento), Kermeta 3&lt;/li&gt;
+&lt;li&gt;The MODELS conf&lt;/li&gt;
+&lt;li&gt;MDEBoK (?)&lt;/li&gt;
+&lt;li&gt;modeling-languages&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object-Oriented Programming</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/oop/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/oop/</guid>
+      <description>&lt;h4&gt;Supports de cours&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/Java1.pdf&#34;&gt;Java - les bases du langage&lt;/a&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/Java2.pdf&#34;&gt;Java - programmation avancée&lt;/a&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/Java3.pdf&#34;&gt;Interface graphique avec Swing&lt;/a&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/OSGi.pdf&#34;&gt;OSGi&lt;/a&gt;
+	&lt;li&gt; &lt;a href=&#34;#&#34;&gt;Web Services&lt;/a&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Supports de TD, TP et projet&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/dri-td1-09.pdf&#34;&gt;TD1&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/dri-tp1-09.pdf&#34;&gt;TP1&lt;/a&gt; (&lt;a href=&#34;./0910/Console.java&#34;&gt;classe Console&lt;/a&gt;, et &lt;a href=&#34;./0910/doc-console/&#34;&gt;sa javadoc&lt;/a&gt;, de &lt;a href=&#34;http://cregut.perso.enseeiht.fr/&#34; target=&#34;_blank&#34;&gt;Xavier Crégut&lt;/a&gt;) et &lt;a href=&#34;./0910/dri-tp2-09.pdf&#34;&gt;TP2&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/dri-projet-meteo-09.pdf&#34;&gt;Projet météo&lt;/a&gt;, et les &lt;a href=&#34;./0910/fr.spm.dri.meteo.zip&#34;&gt;sources du projet météo (à compléter !)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/dri-OSGi-Felix-tp-09.pdf&#34;&gt;TP OSGi&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;#&#34;&gt;TP WebService&lt;/a&gt;, et les &lt;a href=&#34;./0910/fr.spm.dri.webservices.zip&#34;&gt;sources du TP web services (à compléter !)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Outils et Documents complémentaires&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;a href=&#34;http://www.eclipse.org/downloads/&#34;&gt;IDE Eclipse&lt;/a&gt; (Eclipse IDE for Java EE Developers, ou Eclipse IDE for Java Developers)&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;http://java.sun.com/javase/6/docs/api/&#34; target=&#34;_blank&#34;&gt;Java™ Platform, Standard Edition 6, API Specification&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;http://java.sun.com/docs/books/jls/&#34; target=&#34;_blank&#34;&gt;The Java™ Language Specification&lt;/a&gt; (book)&lt;/li&gt;
+	&lt;li&gt; La refcard sur Java &lt;a href=&#34;http://refcardz.dzone.com/refcardz/core-java&#34; target=&#34;_blank&#34;&gt;(a télécharger gratuitement !)&lt;/a&gt; &lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/cnam-nfp121-2009-cm-01-sujet.pdf&#34;&gt;Cours Java&lt;/a&gt; (très complet) de &lt;a href=&#34;http://cregut.perso.enseeiht.fr/&#34; target=&#34;_blank&#34;&gt;Xavier Crégut&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;./0910/to-1in-2008-cm-04-sujet.pdf&#34;&gt;Cours Swing&lt;/a&gt; de &lt;a href=&#34;http://cregut.perso.enseeiht.fr/&#34; target=&#34;_blank&#34;&gt;Xavier Crégut&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;http://felix.apache.org/&#34;&gt;Apache Felix&lt;/a&gt; (OSGi)&lt;/li&gt;
+	&lt;li&gt; &lt;a href=&#34;http://cxf.apache.org/&#34;&gt;Apache CXF&lt;/a&gt; (Web Services)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software (and Systems) Modeling and Architecture</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/modeling/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/modeling/</guid>
+      <description>&lt;h4&gt;&lt;a title=&#34;Benoit Combemale&#39;s Homepage&#34; href=&#34;http://people.irisa.fr/Benoit.Combemale&#34; target=&#34;_blank&#34;&gt;Benoit Combemale&lt;/a&gt; (Univ. Rennes 1, ESIR &amp;amp; IRISA)
+&lt;a href=&#34;http://www.irisa.fr/diverse/&#34;&gt;DiverSE team&lt;/a&gt; (&lt;a href=&#34;http://www.irisa.fr&#34;&gt;IRISA&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.inria.fr&#34;&gt;Inria&lt;/a&gt;)
+Campus de Beaulieu
+F-35042 Rennes Cedex
+benoit.combemale AT irisa.fr&lt;/h4&gt;
+&lt;h2&gt;Lectures (Materials)&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/modeling.pdf&#34;&gt;Modeling in Software Engineering&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/uml.pdf&#34;&gt;UML Basics: An introduction to the Unified Modeling Language (UML)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/analyse-objet-2x2.pdf&#34;&gt;Analyse à objet avec UML&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/mde/ocl-cm-slides.pdf&#34;&gt;The Object Constraint Language (OCL)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/pattern-oo.pdf&#34;&gt;Design Patterns&lt;/a&gt;&lt;/li&gt; &lt;!--  (and anti-patterns) --&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/design-refactoring-tools.pdf&#34;&gt;Implementation patterns, bad smells, refactoring and tools&lt;/a&gt;&lt;/li&gt;
+	&lt;!-- &lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/#&#34;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/#&#34;&gt;Tools and Methods&lt;/a&gt;&lt;/li&gt;--&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/sysml-intro-2x2.pdf&#34;&gt;A Short Introduction about Systems Engineering and SysML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Not maintained (and possibly outdated!)&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/pattern-architure-2x2.pdf&#34;&gt;Introduction à la notion de composant&lt;/a&gt;, SOA, Web Services&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/modeling/#&#34;&gt;Agilité: Le Bon, la Brute et le Truand !&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/#&#34;&gt;Les processus de développement&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/teaching/modeling/projectmanagement-2x2.pdf&#34;&gt;La gestion de projet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Additional materials&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a title=&#34;ESIR2 MDI (IN &amp;amp; SI)&#34; href=&#34;http://people.irisa.fr/Benoit.Combemale/esir2-mdi&#34;&gt;MDI: ESIR2 IN and SI (2016-2017)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Further Materials&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Jean-Marc.Jezequel/enseignement/DvpObjetUML.htm&#34;&gt;J.-M. Jézéquel&#39;s course materials&lt;/a&gt;, including the recommended textbook &lt;a href=&#34;http://people.irisa.fr/Jean-Marc.Jezequel/enseignement/PolyUML/poly.pdf&#34;&gt;Développement de logiciel à objets avec UML&lt;/a&gt; (J.-M. Jézéquel, N. Plouzeau, Y. Le Traon, Université de Rennes 1, Poly C119)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://modeling-languages.com/best-uml-cheatsheets-and-reference-guides/&#34;&gt;UML cheatsheet and reference guides&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Ressources about design patterns at &lt;a href=&#34;https://sourcemaking.com/design_patterns&#34; target=&#34;_blank&#34;&gt;SourceMaking&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;RefCardz &lt;a href=&#34;http://refcardz.dzone.com/refcardz/design-patterns&#34;&gt;Design Patterns&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;RefCardz &lt;a href=&#34;https://dzone.com/refcardz/continuous-integration-servers&#34;&gt;Continuous Integration: Servers and Tools&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.eclipse.org/modeling/&#34;&gt;Eclipse Modeling&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.omg.org/spec/&#34;&gt;OMG&lt;/a&gt; (Object Management Group: UML, SysML, OCL...)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Language Engineering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/sle/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/sle/</guid>
+      <description>&lt;h4&gt;&lt;a title=&#34;Benoit Combemale&#39;s Homepage&#34; href=&#34;https://www.irit.fr/~Benoit.Combemale/&#34; target=&#34;_blank&#34;&gt;Benoit Combemale&lt;/a&gt; (Univ. Toulouse &amp; Inria)&lt;/h4&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Software engineering faces new challenges with the advent of modern software-intensive systems such as complex critical embedded systems, cyber-physical systems and Internet of things. Application domains range from robotics, transportation systems, defense to home automation, smart cities, and energy management, among others. Software is more and more pervasive, integrated into large and distributed systems, and dynamically adaptable in response to a complex and open environment. As a major consequence, the engineering of such systems involves multiple stakeholders, each with some form of domain-specific modeling.&lt;/p&gt;
+&lt;p&gt;Model-Driven Engineering (MDE) aims at reducing the accidental complexity associated with developing complex software-intensive systems through the use of modeling techniques that support separation of concerns and automated generation of system artifacts from models. Separation of concerns is founded on the exploitation of different domain-specific &lt;em&gt;modeling&lt;/em&gt; languages (DSLs), each providing constructs based on abstractions that are specific to a concern of a system. As such, DSLs are “the heart and soul” of MDE, and have major consequences on the industrial development processes.&lt;/p&gt;
+&lt;p&gt;The integration of domain-specific concepts and best practices development experience into DSLs can significantly improve software and systems engineers productivity and system quality. For such a purpose, the development of DSLs has been recently recognized as a significant software engineering task itself. Indeed, the development of DSLs is a challenging task which requires specialized knowledge. This recently resulted in the emergence of Software Language Engineering (SLE), defined as the application of systematic, disciplined, and measurable approaches to the development, use, deployment, and maintenance of software languages.&lt;/p&gt;
+&lt;p&gt;This course provides an end-to-end coverage of the engineering of modeling languages to turn domain knowledge into tools. It introduces the foundations of SLE, with a specific focus on the use of modeling techniques for designing and implementing DSLs. It also provides various illustrations through the definition of different kinds of modeling languages, their instrumentation with tools such as editors, interpreters and generators, the integration of multiple modeling languages to achieve a system view, and the validation of both models and tools.&lt;/p&gt;
+&lt;p&gt;The course starts with definitions of modeling and MDE, and then moves into a deeper discussion of how to express the knowledge of particular domains using modeling languages to ease the development of systems in the domains. The second part presents examples of applications of the model-driven approach to different types of software systems. In addition to illustrating the unification power of models in different software domains, this part demonstrates applicability from different starting points (language, business knowledge, standard, etc.) and focuses on different software engineering activities such as Requirement Engineering, Analysis, Design, Implementation, and V&amp;amp;V.&lt;/p&gt;
+&lt;h2 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h2&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;&lt;a href=&#34;http://mdebook.irisa.fr/&#34; title=&#34;Textbook on MDE and SLE (CRC Press, 2017)&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wp-image-1464&#34; style=&#34;border: 0px;&#34; src=&#34;../../img/MDEBook_cover-1.jpg&#34; width=&#34;115&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lectures-materials&#34;&gt;Lectures (Materials)&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;From MDE to SLE&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Pragmatics of SLE&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Domain-Specific Languages: Basics&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Domain-Specific Languages: Advanced (staging, att. grammars, typing, op. semantics...)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Language workbenches&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Program and model transformation (static analysis, code/test/doc generation...)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Program and model execution, simulation and debugging&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Program and model composition (merge, coordination, synchronization)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;further-materials&#34;&gt;Further Materials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Language workbenches&lt;/li&gt;
+&lt;li&gt;SLE conference&lt;/li&gt;
+&lt;li&gt;SLEBoK&lt;/li&gt;
+&lt;li&gt;DSL book (ralf)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Validation and Verification</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/vv/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/vv/</guid>
+      <description>&lt;h2 id=&#34;lectures-videos-in-french-slides-in-english&#34;&gt;Lectures (videos in french, slides in english)&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/1-introduction.pdf&#34;&gt;Software Validation &amp; Verification: a gentle introduction&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/2-test.pdf&#34;&gt;Software testing at glance&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/3-static-test.pdf&#34;&gt;Static analysis&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/4-dynamic-test.pdf&#34;&gt;Dynamic testing&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/5-integration.pdf&#34;&gt;Integration testing&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/6-test-qualification.pdf&#34;&gt;Test qualification and main criteria&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;../../pub/course/vv/7-mutation.pdf&#34;&gt;Mutation testing&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Test automation&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Software testing: looking ahead&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A 
+&lt;a href=&#34;../../pub/course/vv/vv-textbook-v0.1.pdf&#34;&gt;textbook&lt;/a&gt; (by 
+&lt;a href=&#34;https://oscarlvp.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oscar Luis Vera-Pérez&lt;/a&gt;) complements the lectures.&lt;/p&gt;
+&lt;h2 id=&#34;further-material-information-and-references&#34;&gt;Further material, information and references&lt;/h2&gt;
+&lt;p&gt;TBA.&lt;/p&gt;
+&lt;!-- 
+&lt;ul&gt;
+	&lt;li&gt;Refcard about JUnit and EasyMock &lt;a href=&#34;http://refcardz.dzone.com/refcardz/junit-and-easymock&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://easymock.org/&#34; target=&#34;_blank&#34;&gt;EasyMock&lt;/a&gt; website&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.eclemma.org/&#34; target=&#34;_blank&#34;&gt;EclEmma&lt;/a&gt; website&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://pmd.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;PMD&lt;/a&gt; website&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://seleniumhq.org/&#34; target=&#34;_blank&#34;&gt;Selenium&lt;/a&gt; website&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.dbunit.org/&#34; target=&#34;_blank&#34;&gt;DbUnit&lt;/a&gt; website&lt;/li&gt;
+&lt;/ul&gt;
+--&gt;
+&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
+&lt;p&gt;This course is evolving since a long time, with the contributions of various colleagues, including 
+&lt;a href=&#34;https://sites.google.com/site/yvesletraon/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yves Le Traon&lt;/a&gt;, 
+&lt;a href=&#34;https://softwarediversity.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benoit Baudry&lt;/a&gt; and 
+&lt;a href=&#34;https://oscarlvp.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oscar Luis Vera-Pérez&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

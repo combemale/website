@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Birgit Penzenstadler | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/author/birgit-penzenstadler/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/author/birgit-penzenstadler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Birgit Penzenstadler</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>Birgit Penzenstadler</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/author/birgit-penzenstadler/</link>
+    </image>
+    
+    <item>
+      <title>Towards Model-Driven Sustainability Evaluation</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/cacm20-sustainability/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/cacm20-sustainability/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

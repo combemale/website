@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow">
+<link rel="StyleSheet" href="style-xSPEM.css" type="text/css" media="screen">
+<link REL="SHORTCUT ICON" href="imgs/smile.ico">
+<META name="keywords" content="metamodeling, modeling, spem, omg, combemale, mirail, isycom, grimm, enseeiht, irit, inpt, phd, computer science, research">
+<META name="description" content="xSPEM, an eXecutable SPEM 2.0 -- Homepage of Benoît Combemale, PhD student at INPT-ENSEEIHT (IRIT CNRS Laboratory).">
+<title>xSPEM, an eXecutable SPEM 2.0</title>
+</head>
+<body>
+
+<div id="header">
+
+<div class="title">
+<H1>xSPEM, an eXecutable SPEM 2.0</h1>
+</div>
+<hr>
+</div>
+
+<hr>
+
+<div id="container">
+
+<div id="overview"><h3>General Overview</h3>
+<br/>
+This page presents xSPEM, an eXecutable <a href="http://www.omg.org/technology/documents/formal/spem.htm">SPEM 2.0</a> metamodel, and tools for editing, simulating and verifying xSPEM process models. 
+This work is an application of our work about model simulation and verification and follows a rigorous approach which is presented in the <a href="http://www.combemale.fr/?p=phd-defense">Benoit Combemale's PhD thesis</a>. 
+This thesis presents an approach for dynamic metamodeling (i.e. definition of DSML with behavioral semantics) in order to simulate and validate models. 
+We also define generic tools for models simulation and properties formalization. 
+In the last section we present other applications like simulation of UML2.0 state machines and formal verification of Ladder programs.
+</div>
+
+<hr>
+
+<div id="metamodel"><h3>xSPEM Metamodel Description</h3>
+<br/>
+<p>
+The xSPEM metamodel is composed of four packages : three specific to the domain of process engineering (DDMM, SDMM and EDMM), and one general dedicated to the trace management (TM3). 
+The metamodel follows the architecture described in the Figure 1.
+<center>
+<img src="./metamodelarchitecture.jpg" alt="Architecture for an Executable Metamodel" title="Architecture for an Executable Metamodel"><br/>
+<br/>
+Figure 1. Architecture for an Executable Metamodel 
+</center>
+</p>
+<p>
+The xSPEM metamodel is presented in the Figure 2 and available as an <a href="http://combemale.svn.enseeiht.fr/proto/fr.irit.acadie.xspem/">Ecore file (and DI)</a>.
+<ul>
+<li> The Domain Definition MetaModel (DDMM) is composed of two packages: the <i>xSPEM_Core</i> and the <i>xSPEM_ProjectCharacteristics</i>. 
+		The first one introduces the main concepts from SPEM 2.0 to define a structural process. 
+		The second one extend the first one by the project specific informations.
+<li> The States Definition MetaModel (SDMM) is described by the <i>xSPEM_ProcessObservability</i> package. 
+		This package allows to caracterize all the possible states during an xSPEM process enactment.
+<li> The Events Definition MetaModel (EDMM) is described by the <i>xSPEM_EventDecriptions</i> package 
+		which introduces the different events which allow to evolve the process execution.		
+<li> The Trace Management MetaModel (TM3) is a generic metamodel which helps to describe a sequence of events as a scenario or catch an execution through a trace.
+</ul>
+<center>
+<img src="./xSPEMstructure.jpg" alt="The xSPEM Metamodel" title="The xSPEM Metamodel"><br/>
+<br/>
+Figure 2. The xSPEM Metamodel
+</center>
+</p>
+</div>
+
+<hr>
+
+<div id="prototypes"><h3>Prototypes for process modeling and V&V</h3>
+<div id="editors">
+<h4>xSPEM Graphical Editors</h4>
+We used the editor generators of <a href="http://www.topcased.org/">Topcased</a> and 
+<a href="http://www.eclipse.org/modeling/gmf/">GMF</a> to prototype an xSPEM editor. 
+A tutorial is available <a href="http://combemale.perso.enseeiht.fr/wiki/doku.php?id=private:recherche:tutorialtopcasedsimplepdl">here</a> 
+for the definition of an editor for SimplePDL, a subset of xSPEM.
+A bundle of the xSPEM editor is not currently available but will be released soon. 
+You can checkout the source code from the <a href="http://combemale.svn.enseeiht.fr/TopProcessModeler/">subversion tree</a>.
+</div>
+
+
+<div class="simulator">
+<h4>xSPEM Model Simulation</h4>
+Our generic trace management metamodel allows to define generic tools for simulation such as a <b>discret-event simulation engine</b> and a <b>control panel</b>. 
+Generic tools have been established under the project Topcased for DSMLs of the toolkit (see below the application for UML2 StateMachine simulation).
+
+Graphical components of a simulator (<b>graphical animator</b> and <b>scenario builder</b>) are specific to the considered DSML. They are generated from a description of their SDMM concrete syntax.
+
+Finally, the <b>DSML semantics</b> is defined using Java (+ <a href="http://www.eclipse.org/modeling/emf/">EMF</a>), based on events defined in the EDMM.
+
+<br/>
+A bundle of the xSPEM simulator is not currently available but will be released soon. 
+
+<!--
+<ul>
+  <li> Generic simulation engine for the discret event model of computation :
+  <li> Generic control panel : 
+  <li> xSPEM components :
+	<ul>
+		<li> xSPEM graphical animator :
+		<li> xSPEM scenario builder :
+		<li> xSPEM semantics :
+	</ul>
+</ul>
+-->
+</div>
+
+<div id="checker">
+<h4>xSPEM Model Formal Verification</h4>
+<ul>
+  <li>xSPEM2Tina, a complete semantic translation from xSPEM to Prioritized Time Petri Nets for formal verification by model-checking. 
+	The different model transformations are written in <a href="http://www.eclipse.org/m2m/atl/">ATL</a>. 
+	They generate Petri nets which are verifiable with the <a href="http://www.laas.fr/tina">Tina toolbox</a>. 
+	A bundle is not currently available but will be released soon. 
+	You can checkout the source code from the <a href="http://combemale.svn.enseeiht.fr/proto/fr.irit.acadie.xspem2tina/">subversion tree</a>.
+  </li>
+
+  <li>A Toy Example: the SimplePDL2Tina Case Study<br/>
+	SimplePDL2Tina is a toy example which introduces our approach for formal verification of process models, through SimplePDL, a subset of xSPEM. 
+	It is hosted on the ATL's <a href="http://www.eclipse.org/m2m/atl/usecases/SimplePDL2Tina/" target="_blank">Use Cases</a> 
+	and <a href="http://www.eclipse.org/m2m/atl/atlTransformations/#SimplePDL2Tina" target="_blank">Zoos</a> of the Eclipse website.
+  </li>
+</ul>
+</div>
+
+</div>
+<hr>
+
+<div id="references">
+<h3>References</h3>
+<ul>
+<li> Definition of an eXecutable SPEM2.0
+  <span class="links_publi">
+
+  <a href="http://www.combemale.fr/research/phd/2007/apsec07-BCCG-PreliminaryVersion.pdf">[preprint.pdf]</a>
+  <a href="http://www.combemale.fr/research/phd/2007/apsec07-BCCG-Slide.pdf">[.slide.pdf]</a> 
+  </span> 
+  <br/>
+  <span class="references">
+  <span class="authors">
+  R. Bendraou, 
+  B. <a href="?">Combemale</a>, 
+  X. <a href="http://www.enseeiht.fr/~cregut/">Crégut</a> and 
+  M.-P. Gervais</span><br>
+
+ Accepted at <a href="http://apsec2007.fuka.info.waseda.ac.jp/"><acronym title="14th Asian-Pacific Software Engineering Conference">APSEC'07</acronym></a>, IEEE Computer Society, p. 390-397, December 05-07, 2007 - Nagoya, Japan</span> 
+</li>
+<li>Towards a Formal Verification of Process Model's Properties - SimplePDL and TOCL Case Study
+  <span class="links_publi">
+  <a href="http://www.combemale.fr/research/phd/2007/iceis0607-CCGTV-longpaper702-preliminary.pdf">[.pdf]</a>
+  <a href="http://www.combemale.fr/research/phd/2007/iceis0607-CCGTV-longpaper702-slide.pdf">[.slide.pdf]</a> 
+  </span>
+  <br/>
+  <span class="references">
+  <span class="authors">B. <a href="?">Combemale</a>, 
+  P.-L. <a href="http://garoche.perso.enseeiht.fr">Garoche</a>, 
+  X. <a href="http://www.enseeiht.fr/~cregut/">Crégut</a>, 
+  X. Thirioux and 
+  F. <a href="http://www.laas.fr/~francois/">Vernadat</a></span><br>
+
+  Accepted at <a href="http://www.iceis.org/"><acronym title="9th International Conference on Enterprise Information Systems">ICEIS'07</acronym></a> <i>(long paper)</i>, INSTICC, p. 80-89, June 12-16, 2007 - Funchal, Madeira - Portugal</span> 
+</li>
+<li>SimplePDL2Tina: Mise en oeuvre d'une Validation de Modèles de Processus  
+  <span class="links_publi">
+  <a href="http://www.combemale.fr/research/phd/2007/idm07-CCBV.pdf">[.pdf]</a> 
+  <a href="http://www.combemale.fr/research/phd/2007/idm07-CCBV-slide.pdf">[.slide.pdf]</a> 
+  </span>
+  <br/>
+  <span class="references">
+  <span class="authors">
+  B. <a href="?">Combemale</a>, 
+  X. <a href="http://www.enseeiht.fr/~cregut/">Crégut</a>,  
+  B. <a href="http://www.laas.fr/~bernard/">Berthomieu and
+  F. <a href="http://www.laas.fr/~francois/">Vernadat</a>
+
+  </span><br>
+  Accepted at <a href="http://www.planetmde.org/idm07/"><acronym title="3ième Journées sur l'Ingénierie Dirigée par les Modèles">IDM'07</acronym></a>, March 29-30, 2007 - Toulouse, France</span> 
+</li>
+<li>TopProcess: A Process Model Driven Approach Applied in Topcased for Embedded Real-Time Software
+  <span class="links_publi">
+  <a href="http://www.combemale.fr/research/phd/2008/erts08-GCCGL.pdf">[.pdf]</a> 
+  <!--<a href="http://www.combemale.fr/research/phd/2008/erts08-GCCGL-slide.pdf">[.slide.pdf]</a> -->
+  </span>
+  <br/>
+  <span class="references">
+  <span class="authors">
+  A. Garcia,
+  B. <a href="?">Combemale</a>, 
+  X. <a href="http://www.enseeiht.fr/~cregut/">Crégut</a>,  
+  J.-N. Guyot and
+  B. Libert
+  
+  </span><br>
+  Accepted at <a href="http://www.erts2008.org/"><acronym title="4th European Congress EMBEDDED REAL TIME SOFTWARE">ERTS'08</acronym></a>, January 29-31, 2008 - Toulouse, France</span> 
+</li>
+</ul>
+</div>
+
+<hr>
+
+<div id="related">
+<h3>Related Applications</h3>
+
+<h4>Simulation of UML2.0 State Machines</h4>
+	<p> 
+A prototype of the UML2 StateMachines simulator has been developed following our generic architecture. 
+It reuses the visualization of the model created while building the model with the Topcased graphical editor (DDMM).  
+During simulation, it is possible to inspect the dynamic information of the model (SDMM) thanks to the dynamic simulation view.  
+It is especially useful for the properties that are not graphically presented. 
+A control view allows to control a simulation with a <i>start</i> button, a <i>stop</i> button and a <i>step by step</i> button.  
+The simulation is either interactive or driven by a scenario chosen and loaded when the simulator is started. A batch mode is also possible.
+	</p>
+<ul>
+	<li> <b><i>Download:</b></i> <br/>
+		The source code of the UML2.0 State Machine simulator are available on the <a href="http://gforge.enseeiht.fr/scm/?group_id=58">CVS tree</a> 
+		of the Topcased development server. It will be integrated in the next Topcased release (v2) synchronised with Eclipse Ganymede in July 2008. 
+	</li>
+	<li> <b><i>Publication:</b></i> <br/>
+	Introducing Simulation and Model Animation in the MDE Topcased Toolkit
+	<span class="links_publi">
+		<a href="http://www.combemale.fr/research/phd/2008/erts08-CCGMP.pdf">[.pdf]</a> 
+		<!--<a href="http://www.combemale.fr/research/phd/2008/erts08-CCGMP-slide.pdf">[.slide.pdf]</a> -->
+	</span>
+	<br/>
+	<span class="references">
+	<span class="authors">
+		B. <a href="?">Combemale</a>, 
+		X. <a href="http://www.enseeiht.fr/~cregut/">Crégut</a>,  
+		J.-P. Giacometti, 
+		P. Michel and 
+		M. Pantel
+	</span>
+	<br>
+	Accepted at <a href="http://www.erts2008.org/"><acronym title="4th European Congress EMBEDDED REAL TIME SOFTWARE">ERTS'08</acronym></a>, January 29-31, 2008 - Toulouse, France</span> 
+	</p>
+	</li>
+</ul>
+	
+<h4>Formal Verification of Ladder Programs: </h4>
+	<p>
+	Ladder Diagram (LD) is the most used programming language for Programmable Logical Controllers (PLCs). 
+	A PLC is a special purpose industrial computer used to automate industrial processes. 
+	Bugs in LD programs are very costly and sometimes are even a threat to human safety.
+	<br/>
+	We propose a model driven approach for formal verification of LD programs through model-checking. 
+	We provide a metamodel for a subset of the LD language. 
+	We define a time Petri net (TPN) semantics for LD programs through an ATL model transformation. 
+	Finally, we automatically generate behavioral properties over the LD models as LTL formulae 
+	which are then checked over the generated TPN using the model-checkers available in the Tina toolkit. 
+	We mainly focus on race condition detection.
+	</p>
+	
+<ul>
+	<li> <b><i>Download:</b></i> <br/>
+	A bundle is not currently available but will be released soon. 
+	You can checkout the source code from the <a href="http://combemale.svn.enseeiht.fr/proto/fr.irit.acadie.ladder2tina/Ladder2PetriNet/">subversion tree</a>.
+	</li>
+	<li><b><i>Publication:</b></i> <br/>
+	Ladder Metamodeling & PLC Program Validation through Time Petri Nets
+	<span class="links_publi">
+		<!-- <a href="http://www.combemale.fr/research/phd/2008/ecmda08-BCCFBV.pdf">[.pdf]</a> 
+		<a href="http://www.combemale.fr/research/phd/2008/ecmda08-BCCFBV-slide.pdf">[.slide.pdf]</a> -->
+	</span>
+	<br/>
+	<span class="references">
+	<span class="authors"> 
+		D. Bender, 
+		B. <a href="?">Combemale</a>, 
+		X. <a href="http://www.enseeiht.fr/~cregut/">Crégut</a>,  
+		J.-M. Farines, 
+		B. Berthomieu and 
+		F. Vernadat
+	</span>
+	<br>
+	Accepted at <a href="http://www.fokus.fraunhofer.de/go/ecmda2008/"><acronym title="4th European Conference on Model Driven Architecture - Foundations and Applications">ECMDA'08</acronym></a>, June 09-12, 2008 - Berlin, Germany</span> 
+	</p>
+	</li>
+</ul>
+</div>
+
+<hr>
+
+<div id="contact">
+<h3>Contact</h3>
+<br>
+
+<a href="http://www.irit.fr/">IRIT laboratory</a>, <a href="http://www.irit.fr/-Equipe-ACADIE-">ACADIE team</a>. 
+
+<address>
+Site ENSEEIHT de l'IRIT-UMR CNRS 5505<br>
+Bâtiment I, Bureau I304<br>
+2, rue Charles Camichel - BP 7122 <br>
+F-31071 TOULOUSE CEDEX 7
+</address>
+	
+<p>
+By email :
+<a href="mailto:benoit.combemale@(NO_SPAM)enseeiht.fr">benoit.combemale@(NO_SPAM)enseeiht.fr</a>
+</p>
+
+</div>
+
+<hr>
+
+</div>
+
+
+<div id="footer">
+Last modified: May 20 20:17:51 CEST 2008
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/about/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/about/index.xml" rel="self" type="application/rss+xml" />
+    <description>About</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>About</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/about/</link>
+    </image>
+    
+    <item>
+      <title>HDR of Prof. Benoit Combemale</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/about/hdr/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/about/hdr/</guid>
+      <description>&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;&#34;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/hdr-defense&#34; target=&#34;_blank&#34;&gt;Towards Language-Oriented Modeling&lt;/a&gt;&#34;, &lt;a title=&#34;Dr. Benoit Combemale&#34; href=&#34;http://combemale.fr&#34; target=&#34;_blank&#34;&gt;Benoit Combemale&lt;/a&gt; [&lt;a href=&#34;https://hal.inria.fr/tel-01238817/document&#34; target=&#34;_blank&#34;&gt;thesis&lt;/a&gt;, &lt;a href=&#34;https://hal.inria.fr/tel-01238817/file/hdr-combemale-slides.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;http://videos.rennes.inria.fr/hdr/BenoitCombemale/index-exposeHDRBenoitCombemale.html&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;]&lt;/h2&gt;
+&lt;span style=&#34;text-align: left;&#34;&gt;Software engineering faces new challenges with the advent of modern software-intensive systems such as complex critical embedded systems, cyber-physical systems and Internet of things. Application domains range from robotics, transportation systems, defense to home automation, smart cities, and energy management, among others. Software is more and more pervasive, integrated into large and distributed systems, and dynamically adaptable in response to a complex and open environment. As a major consequence, the engineering of such systems involves multiple stakeholders, each with some form of domain-specific knowledge, and with an increasingly use of software as an integration layer.&lt;/span&gt;
+&lt;p&gt;&lt;em&gt;Model-Driven Engineering&lt;/em&gt; (MDE) aims at reducing the accidental complexity associated with developing complex software-intensive systems through the use of modeling techniques that support separation of concerns and automated generation of system artifacts from models. Separation of concerns is founded on the exploitation of different &lt;em&gt;domain-specific modeling languages&lt;/em&gt; (DSMLs), each providing constructs based on abstractions that are specific to a concern of a system. As such, DSMLs are &amp;ldquo;the heart and soul&amp;rdquo; of MDE, and have major consequences on the industrial development processes.&lt;/p&gt;
+&lt;p&gt;The integration of domain-specific concepts and best practices development experience into DSMLs can significantly improve software and systems engineers productivity and system quality. Yet, the development of DSMLs has only been recently recognized as a significant software engineering task itself. Indeed, the development of DSMLs is a challenging task which requires specialized knowledge. This recently resulted in the emergence of &lt;em&gt;Software Language Engineering&lt;/em&gt; (SLE), defined as the application of systematic, disciplined, and measurable approaches to the development, use, deployment, and maintenance of languages.&lt;/p&gt;
+&lt;p&gt;MDE encompasses the identification of added-value domain knowledge, and SLE covers the technical activities to develop DSMLs. However, the interplay between both is still challenging: how to turn application-level and business knowledge into added-value DSMLs? How to scale-up with their multiplication due to the various stakeholders and application domains of interest? Answering these questions is at the core of my research activities for 10 years. The challenge is twofold: to capture domain-specific knowledge into added-value DSMLs while supporting their possible reuse and customization in other contexts; and to support the separation of concerns through the use of multiple DSMLs while ensuring their automatic and correct integration.&lt;/p&gt;
+&lt;p&gt;In this &lt;em&gt;habilitation à diriger des recherches&lt;/em&gt; (HDR), I review a decade of research work in the fields of MDE and SLE. I propose contributions to support a &lt;em&gt;language-oriented modeling&lt;/em&gt;, with the particular focus on enabling early validation &amp;amp; verification (V&amp;amp;V) of software-intensive systems.
+I first present foundational concepts and engineering facilities which help to capture the core domain knowledge into the various heterogeneous concerns of DSMLs (aka. &lt;em&gt;metamodeling in the small&lt;/em&gt;), with a particular focus on executable DSMLs to automate the development of dynamic V&amp;amp;V tools. Then, I propose structural and behavioral DSML interfaces, and associated composition operators to reuse and integrate multiple DSMLs (aka. &lt;em&gt;metamodeling in the large&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;In these research activities I explore various breakthroughs in terms of modularity and reusability of DSMLs. I also propose an original approach which bridges the gap between the concurrency theory and the algorithm theory, to integrate a formal concurrency model into the execution semantics of DSMLs.
+All the contributions have been implemented in software platforms &amp;ndash; the language workbench &lt;a href=&#34;http://melange-lang.org/&#34;&gt;Melange&lt;/a&gt; and &lt;a href=&#34;http://gemoc.org/studio&#34;&gt;the GEMOC studio&lt;/a&gt; - and experienced in real-world case studies to assess their validity. In this context, I also founded &lt;a href=&#34;http://gemoc.org/&#34;&gt;the GEMOC initiative&lt;/a&gt;, an attempt to federate the community on the grand challenge of &lt;em&gt;the globalization of modeling languages&lt;/em&gt;.&lt;/blockquote&gt;&lt;/p&gt;
+&lt;h3&gt;Committee&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://web.univ-pau.fr/~barbier/&#34;&gt;Prof. Franck Barbier&lt;/a&gt;, University of Pau, FR (reviewer)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://wwwfr.uni.lu/snt/people/lionel_briand&#34;&gt;Prof. Lionel Briand&lt;/a&gt;, University of Luxembourg, LU (reviewer)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.cse.msu.edu/~chengb/&#34;&gt;Prof. Betty Cheng&lt;/a&gt;, Michigan State University, USA (reviewer)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://scg.unibe.ch/staff/oscar&#34;&gt;Prof. Oscar Nierstrasz&lt;/a&gt;, University of Bern, CH (reviewer)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html&#34;&gt;Prof. Joerg Kienzle&lt;/a&gt;, McGill University, CA (examiner)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://cs.swan.ac.uk/~cspdm/&#34;&gt;Prof. Peter Mosses&lt;/a&gt;, Swansea University, UK (examiner)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.rennes.inria.fr/Benoit.Baudry/&#34;&gt;Dr. Benoit Baudry&lt;/a&gt;, INRIA, FR (examiner)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;https://people.irisa.fr/Jean-Marc.Jezequel/&#34;&gt;Prof. Jean-Marc Jézéquel&lt;/a&gt;, University of Rennes 1, FR (examiner)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Further materials&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;https://hal.inria.fr/tel-01238817/document&#34;&gt;Document of the HDR thesis&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;https://hal.inria.fr/tel-01238817/file/hdr-combemale-slides.pdf&#34;&gt;Slides of the defense&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://videos.rennes.inria.fr/hdr/BenoitCombemale/index-exposeHDRBenoitCombemale.html&#34;&gt;Video of the defense&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;My publications (&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/publications/&#34;&gt;full list&lt;/a&gt;, &lt;a href=&#34;http://hal.inria.fr/aut/Benoit+Combemale/&#34;&gt;preprints on HAL&lt;/a&gt;, &lt;a href=&#34;http://dblp.uni-trier.de/pers/hd/c/Combemale:Beno=icirc=t.html&#34;&gt;DBLP&lt;/a&gt;, &lt;a href=&#34;https://scholar.google.com/citations?user=VCAbjVYAAAAJ&amp;amp;hl=en&#34;&gt;Google Scholar&lt;/a&gt;)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://people.irisa.fr/Benoit.Combemale/sleseminar2015/&#34;&gt;DiverSE&#39;s SLE Seminar 2015&lt;/a&gt; about the recent activities in the team about software language engineering&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://gemoc.org/&#34;&gt;The GEMOC initiative&lt;/a&gt; and &lt;a href=&#34;http://gemoc.org/studio&#34;&gt;studio&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://melange-lang.org&#34;&gt;The Melange language workbench&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+[slideshare id=57496497&amp;doc=hdr-combemale-slides-160126085012]
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../pub/hdr/hdr1.jpg&#34;&gt;&lt;img class=&#34;alignleft&#34; src=&#34;../../pub/hdr/hdr1.jpg&#34; alt=&#34;Jury members of the HDR defense&#34; width=&#34;5344&#34; height=&#34;4008&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;../../pub/hdr/hdr2.jpg&#34;&gt;&lt;img class=&#34;alignright&#34; src=&#34;../../pub/hdr/hdr2.jpg&#34; alt=&#34;Jury members of the HDR defense&#34; width=&#34;5344&#34; height=&#34;4008&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Overall Program&lt;/h1&gt;
+&lt;h3&gt;December 3, 2015: Seminar on Software Engineering&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;14:25-14:30: Welcome and introduction&lt;/li&gt;
+&lt;li&gt;14:30-15:15: &lt;strong&gt;&lt;em&gt;&amp;quot;Dealing with Uncertainty in Self-Adaptive Systems&amp;quot;&lt;/em&gt;&lt;/strong&gt; (&lt;a href=&#34;http://www.cse.msu.edu/~chengb/&#34;&gt;Prof. Betty H.C. Cheng&lt;/a&gt;, Michigan State University, US)&lt;/li&gt;
+&lt;li&gt;15:15-15:45: &lt;strong&gt;&lt;em&gt;&amp;quot;An attempt to software adaptation classification, illustration with State Chart XML&amp;quot;&lt;/em&gt;&lt;/strong&gt; (&lt;a href=&#34;http://web.univ-pau.fr/~barbier/&#34;&gt;Prof. Franck Barbier&lt;/a&gt;, University of Pau, FR)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;15:45-16:15: coffee break&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;16:15-17:00: &lt;strong&gt;&lt;em&gt;&amp;quot;&lt;a href=&#34;../../pub/hdr/seminar/BriandRennes2015.pdf&#34;&gt;Traceability Beyond Source Code: An Elusive Target?&lt;/a&gt;&amp;quot;&lt;/em&gt;&lt;/strong&gt; (&lt;a href=&#34;http://people.svv.lu/briand/&#34;&gt;Prof. Lionel Briand&lt;/a&gt;, University of Luxembourg, LU)&lt;/li&gt;
+&lt;li&gt;17:00-17:45: &lt;strong&gt;&lt;em&gt;&amp;quot;&lt;a href=&#34;http://fr.slideshare.net/onierstrasz/domainspecific-development-tools&#34;&gt;Domain-Specific Development Tools&lt;/a&gt;&amp;quot;&lt;/em&gt;&lt;/strong&gt; (&lt;a href=&#34;http://scg.unibe.ch/staff/oscar&#34;&gt;Prof. Oscar Nierstrasz&lt;/a&gt;, University of Bern, CH)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;December 4, 2015: HDR defense&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;09:30-11:30: &lt;strong&gt;&lt;em&gt;&amp;quot;&lt;a href=&#34;https://hal.inria.fr/tel-01238817/file/hdr-combemale-slides.pdf&#34;&gt;Towards Language-Oriented Modeling&lt;/a&gt;&amp;quot;&lt;/em&gt;&lt;/strong&gt; (HDR defense, Benoit Combemale)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;11:30-12:30: reception&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Venue&lt;/h1&gt;
+All the events will take place in the &lt;strong&gt;room Petri-Turing&lt;/strong&gt; at &lt;strong&gt;Inria Rennes&lt;/strong&gt;, France.
+&lt;a href=&#34;http://www.inria.fr/en/centre/rennes/overview/practical-info&#34;&gt;How to reach there?&lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Services of Prof. Benoit Combemale</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/about/services/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/about/services/</guid>
+      <description>&lt;h2 id=&#34;journals&#34;&gt;Journals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deputy Editor in Chief of the platinum opeen access journal &lt;a href=&#34;http://www.jot.fm&#34; target=&#34;_blank&#34;&gt;JOT&lt;/a&gt; on Software and language engineering.&lt;/li&gt;
+&lt;li&gt;Member of the Editorial Boards of the Springer Journal on &lt;a href=&#34;http://www.sosym.org&#34; target=&#34;_blank&#34;&gt;Software and Systems Modeling&lt;/a&gt; (SoSyM), the Springer &lt;a href=&#34;https://link.springer.com/journal/11219&#34; target=&#34;_blank&#34;&gt;Software Quality&lt;/a&gt; Journal (SQJ), the Elsevier Journal of &lt;a href=&#34;https://www.journals.elsevier.com/journal-of-computer-languages&#34; target=&#34;_blank&#34;&gt;Computer Languages&lt;/a&gt; (COLA), and the Elsevier Journal on &lt;a href=&#34;http://www.journals.elsevier.com/science-of-computer-programming/editorial-board/&#34;&gt;Science of Computer Programming&lt;/a&gt; (SCP, Advisory Board of the Software Section).&lt;/li&gt;
+&lt;li&gt;Regular reviewer for various software engineering journals, e.g., the &lt;a href=&#34;http://www.sosym.org/&#34; target=&#34;_blank&#34;&gt;Springer Journal on Software and System Modeling&lt;/a&gt; (SoSym), ACM Survey, and &lt;a href=&#34;http://www.computer.org/portal/web/tse&#34; target=&#34;_blank&#34;&gt;IEEE Transactions on Software Engineering&lt;/a&gt; (TSE).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conferences-and-workshops&#34;&gt;Conferences and Workshops&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Steering Committee of the ACM SIGPLAN Intl. Conference on &lt;a href=&#34;http://www.sleconf.org/&#34;&gt;Software Language Engineering&lt;/a&gt; (member since 2014, and chair since 2018)&lt;/li&gt;
+&lt;li&gt;Steering Committee of the &lt;a href=&#34;https://mleworkshop.github.io&#34;&gt;Modeling Language Engineering and Execution&lt;/a&gt; (MLE) workshop (founding member, since 2019)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2021&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finance Chair for &lt;a href=&#34;https://icpe2021.spec.org/&#34; target=&#34;_blank&#34;&gt;ICPE&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Program board member for &lt;a href=&#34;https://conf.researchr.org/home/models-2021&#34; target=&#34;_blank&#34;&gt;MODELS&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;RE&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://isoft.acm.org/isec2021/&#34; target=&#34;_blank&#34;&gt;ISEC&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://www.ntnu.edu/ease2021&#34; target=&#34;_blank&#34;&gt;EASE&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;EduSymp&lt;/a&gt; at &lt;a href=&#34;https://conf.researchr.org/home/models-2021&#34; target=&#34;_blank&#34;&gt;MODELS&#39;21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://devops4cps-testing.github.io/&#34; target=&#34;_blank&#34;&gt;DevOps4CPS-Testing&lt;/a&gt; at ICST&#39;21&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://events.eclipse.org/2021/saam-mobility/&#34; target=&#34;_blank&#34;&gt;Eclipse SAAM Mobility 2021&lt;/a&gt; conference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2020&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC co-chair for &lt;a href=&#34;https://2020.ict4s.org&#34;&gt;ICT4S 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tools &amp;amp; Demos co-chair for &lt;a href=&#34;https://conf.researchr.org/home/models-2020&#34; target=&#34;_blank&#34;&gt;MODELS&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Selection Committee ACM SRC for &lt;a href=&#34;https://conf.researchr.org/home/models-2020&#34; target=&#34;_blank&#34;&gt;MODELS&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Program board member for &lt;a href=&#34;https://conf.researchr.org/home/models-2020&#34; target=&#34;_blank&#34;&gt;MODELS&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://staf2020.hvl.no/events/ecmfa2020/&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://fdl-conference.org/&#34; target=&#34;_blank&#34;&gt;FDL&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://portal.cbi-series.org/&#34; target=&#34;_blank&#34;&gt;CBI&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://2020.quatic.org/thematic-tracks/model-driven-methods&#34; target=&#34;_blank&#34;&gt;QUATIC&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://mleworkshop.github.io/mle2020.html&#34;&gt;MLE&#39;20&lt;/a&gt; workshop at &lt;a href=&#34;https://conf.researchr.org/home/models-2020&#34; target=&#34;_blank&#34;&gt;MODELS&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://ace-design.github.io/devops-at-models/&#34;&gt;DevOps@MODELS&#39;20&lt;/a&gt; workshop at &lt;a href=&#34;https://conf.researchr.org/home/models-2020&#34; target=&#34;_blank&#34;&gt;MODELS&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://comodity.github.io/&#34;&gt;CoMoDiTy&#39;20&lt;/a&gt; workshop at &lt;a href=&#34;https://er2020.big.tuwien.ac.at/&#34; target=&#34;_blank&#34;&gt;ER&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.informatik.uni-hamburg.de/TGI/events/pnse/&#34;&gt;PNSE&#39;20&lt;/a&gt; workshop&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://mosc.gssi.it/&#34;&gt;MoSC&#39;20&lt;/a&gt; workshop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2019&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC chair (Foundation track) for &lt;a href=&#34;https://staf2019.win.tue.nl/events/ecmfa19/&#34;&gt;ECMFA 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.model-transformation.org/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Selection Committee member for the &lt;a href=&#34;https://modelsconf19.org/?page_id=1118&#34;&gt;Doctoral Symposium&lt;/a&gt; at &lt;a href=&#34;https://modelsconf19.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://gemoc.org/events/mle2019&#34;&gt;MLE&#39;19&lt;/a&gt; workshop at &lt;a href=&#34;https://modelsconf19.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://ace-design.github.io/devops-at-models/&#34;&gt;DevOps@MODELS&#39;19&lt;/a&gt; workshop at &lt;a href=&#34;https://modelsconf19.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://events.disim.univaq.it/flexmde/&#34;&gt;FlexMDE&#39;19&lt;/a&gt; workshop at &lt;a href=&#34;https://modelsconf19.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.informatik.uni-hamburg.de/TGI/events/pnse/&#34;&gt;PNSE&#39;19&lt;/a&gt; workshop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2018&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PB member for &lt;a href=&#34;https://modelsconf2018.github.io/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;18&lt;/a&gt;, and co-organizer of the co-located &lt;a href=&#34;https://modelsconf2018.github.io/program/industryday/&#34; target=&#34;_blank&#34;&gt;Industry day 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Co-chair of the workshop &lt;a href=&#34;http://gemoc.org/gemoc2018&#34;&gt;GEMOC&lt;/a&gt; at &lt;a href=&#34;https://modelsconf2018.github.io/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;18&lt;/a&gt; (&lt;a title=&#34;CEUR&#34; href=&#34;#&#34; target=&#34;_blank&#34;&gt;proceedings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://icmt2018.github.io/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://eventmall.info/ecmfa2018/&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://sselab.de/lab2/public/wiki/MiSE/&#34;&gt;MiSE&#39;18&lt;/a&gt; workshop at &lt;a href=&#34;http://icse2017.gatech.edu/&#34; target=&#34;_blank&#34;&gt;ICSE&#39;18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://modelexecution.org/exe2018/&#34;&gt;EXE&#39;18&lt;/a&gt; workshop at &lt;a href=&#34;https://modelsconf2018.github.io/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://msdl.uantwerpen.be/conferences/MDEbug/2018/&#34;&gt;MDEbug&#39;18&lt;/a&gt; workshop at &lt;a href=&#34;https://modelsconf2018.github.io/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://www.laser-foundation.org/devops/2018/&#34;&gt;DevOps&#39;18&lt;/a&gt; workshop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Co-organizer of the session &amp;ldquo;&lt;a href=&#34;http://cmwrconference.org/program/sessions/application_of_advanced_software_tools_and_methods/&#34;  target=&#34;_blank&#34;&gt;Application of Advanced Software Engineering Tools and Methods in the Environmental Sciences&lt;/a&gt;&amp;rdquo; at &lt;a href=&#34;http://cmwrconference.org/&#34; target=&#34;_blank&#34;&gt;CMWR&#39;18&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2017&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General chair for &lt;a href=&#34;http://www.sleconf.org/2017&#34;&gt;SLE 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Coordinator of the &lt;a href=&#34;http://www.dagstuhl.de/17342&#34; target=&#34;_blank&#34;&gt;Dagstuhl Seminar 17342&lt;/a&gt; on &amp;ldquo;The Software Language Engineering Body of Knowledge&amp;rdquo; (SLEBoK)&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://sites.google.com/site/icmt2017/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://www.cs.utexas.edu/models2017/home&#34; target=&#34;_blank&#34;&gt;MODELS&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://modelexecution.org/exe2017/&#34;&gt;EXE&#39;17&lt;/a&gt; workshop at &lt;a href=&#34;https://www.cs.utexas.edu/models2017/home&#34; target=&#34;_blank&#34;&gt;MODELS&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://msdl.uantwerpen.be/conferences/MDEbug/&#34;&gt;MDEbug&#39;17&lt;/a&gt; workshop at &lt;a href=&#34;https://www.cs.utexas.edu/models2017/home&#34; target=&#34;_blank&#34;&gt;MODELS&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://gemoc.org/events/gemoc2017.html&#34;&gt;GEMOC&#39;17&lt;/a&gt; workshop at &lt;a href=&#34;https://www.cs.utexas.edu/models2017/home&#34; target=&#34;_blank&#34;&gt;MODELS&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://sselab.de/lab2/public/wiki/MiSE&#34;&gt;MiSE&#39;17&lt;/a&gt; workshop at &lt;a href=&#34;http://icse2017.gatech.edu/&#34; target=&#34;_blank&#34;&gt;ICSE&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.momo2017.ece.mcgill.ca/&#34;&gt;MoMo&#39;17&lt;/a&gt; workshop at &lt;a href=&#34;http://2017.modularity.info&#34; target=&#34;_blank&#34;&gt;Modularity&#39;17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2016&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General chair for &lt;a href=&#34;http://models2016.irisa.fr/&#34;&gt;MODELS 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://ecmfa2016.itu.dk&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://is.ieis.tue.nl/research/ICMT16/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://gemoc.org/gemoc2016/&#34;&gt;GEMOC&#39;16&lt;/a&gt; workshop at &lt;a href=&#34;http://models2016.irisa.fr/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://modelexecution.org/exe2016&#34;&gt;EXE&#39;16&lt;/a&gt; workshop at &lt;a href=&#34;http://models2016.irisa.fr/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://sselab.de/lab2/public/wiki/MiSE&#34;&gt;MiSE&#39;16&lt;/a&gt; workshop at &lt;a href=&#34;http://2016.icse.cs.txstate.edu&#34; target=&#34;_blank&#34;&gt;ICSE&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://2016.modularity.info/track/LaMOD2016&#34;&gt;LaMOD&#39;16&lt;/a&gt; workshop at &lt;a href=&#34;http://2016.modularity.info&#34; target=&#34;_blank&#34;&gt;Modularity&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.momo2016.ece.mcgill.ca&#34;&gt;MoMo&#39;16&lt;/a&gt; workshop at &lt;a href=&#34;http://2016.modularity.info&#34; target=&#34;_blank&#34;&gt;Modularity&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2015&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Co-chair of the workshop &lt;a href=&#34;http://gemoc.org/gemoc2015/&#34;&gt;GEMOC&lt;/a&gt; at &lt;a href=&#34;http://www.modelsconference.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;15&lt;/a&gt; (&lt;a title=&#34;CEUR&#34; href=&#34;http://ceur-ws.org/Vol-1511/&#34; target=&#34;_blank&#34;&gt;proceedings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Co-chair of the workshop &lt;a href=&#34;http://sustainability15.inria.fr/&#34; target=&#34;_blank&#34;&gt;Sustainability&#39;15&lt;/a&gt; at &lt;a href=&#34;http://www.aosd.net/2015/&#34;&gt;Modularity 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.sleconf.org/2015/&#34; target=&#34;_blank&#34;&gt;SLE&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.cs.york.ac.uk/sefm2015/&#34; target=&#34;_blank&#34;&gt;SEFM&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;www.di.univaq.it/diruscio/sites/ICMT2015/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;https://www.uni-marburg.de/fb12/swt/ecmfa2015/&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.icsp-conferences.org/icssp2015/&#34; target=&#34;_blank&#34;&gt;ICSSP&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Panel co-chair for &lt;a href=&#34;http://www.modelsconference.org/&#34;&gt;MODELS 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tutorials PC member for &lt;a href=&#34;http://www.modelsconference.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://is.ieis.tue.nl/research/bpm/MPM15&#34;&gt;MPM&#39;15&lt;/a&gt; workshop at &lt;a href=&#34;http://www.modelsconference.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.modelexecution.org/exe2015&#34;&gt;EXE&#39;15&lt;/a&gt; workshop at &lt;a href=&#34;http://www.modelsconference.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;https://sselab.de/lab2/public/wiki/MiSE&#34;&gt;MiSE&#39;15&lt;/a&gt; workshop at &lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;ICSE&#39;15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2014&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC co-chair for &lt;a href=&#34;http://www.sleconf.org/2014&#34;&gt;SLE 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Coordinator of the &lt;a href=&#34;http://www.dagstuhl.de/14412&#34; target=&#34;_blank&#34;&gt;Dagstuhl Seminar 14412 on &amp;ldquo;Globalizing Domain-Specific Languages&amp;quot;&lt;/a&gt; (&lt;a title=&#34;LNCS Book&#34; href=&#34;http://www.springer.com/us/book/9783319261713&#34; target=&#34;_blank&#34;&gt;LNCS book&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Co-chair of the workshop &lt;a href=&#34;http://gemoc.org/gemoc2014/&#34;&gt;GEMOC&lt;/a&gt; at &lt;a href=&#34;http://models2014.webs.upv.es/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;14&lt;/a&gt; (&lt;a title=&#34;CEUR&#34; href=&#34;http://ceur-ws.org/Vol-1236/&#34; target=&#34;_blank&#34;&gt;proceedings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Demonstration co-chair for &lt;a href=&#34;http://models2014.webs.upv.es&#34;&gt;MODELS 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Organizing Committee member for the summer school &lt;a href=&#34;http://www.mdd4dres.org/&#34;&gt;MDD4DRES 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://apsec2014.korea.ac.kr/&#34; target=&#34;_blank&#34;&gt;APSEC&#39;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.model-transformation.org/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://ecmfa2014.lcc.uma.es&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://volt2014.big.tuwien.ac.at/&#34;&gt;VOLT&#39;14&lt;/a&gt; workshop at &lt;a href=&#34;http://stafconferences.info/&#34; target=&#34;_blank&#34;&gt;STAF&#39;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://msdl.cs.mcgill.ca/conferences/MPM/&#34;&gt;MPM&#39;14&lt;/a&gt; workshop at &lt;a href=&#34;http://models2014.webs.upv.es/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the CSP track at &lt;a href=&#34;http://cmt.dmi.unipr.it/wetice14/&#34; target=&#34;_blank&#34;&gt;WETICE&#39;14&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2013&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Co-chair of the workshop &lt;a href=&#34;http://gemoc.org/gemoc2013/&#34;&gt;GEMOC&lt;/a&gt; at &lt;a href=&#34;http://models2013.lcc.uma.es/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;13&lt;/a&gt; (&lt;a title=&#34;CEUR&#34; href=&#34;http://ceur-ws.org/Vol-1102/&#34; target=&#34;_blank&#34;&gt;proceedings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Co-chair of the workshop &lt;a href=&#34;http://gemoc.org/globaldsl2013/&#34;&gt;GlobalDSL&lt;/a&gt; at &lt;a href=&#34;http://www.lirmm.fr/ec-montpellier-2013/&#34;&gt;ECOOP, ECMFA and ECSA 2013&lt;/a&gt; (&lt;a title=&#34;ACM DL&#34; href=&#34;http://dl.acm.org/citation.cfm?id=2489812&#34; target=&#34;_blank&#34;&gt;proceedings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://apsec2013.eng.chula.ac.th/&#34; target=&#34;_blank&#34;&gt;APSEC&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://antares.sip.ucm.es/sefm2013/index.php&#34; target=&#34;_blank&#34;&gt;SEFM&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.model-transformation.org/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://info-web.lirmm.fr/ecmfa13/&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://software.nju.edu.cn/qsic/&#34; target=&#34;_blank&#34;&gt;QSIC&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://models2013.lcc.uma.es/call-edusymp.html&#34;&gt;EduSymp @ MoDELS 2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://msdl.cs.mcgill.ca/conferences/AMT/&#34;&gt;AMT&#39;13&lt;/a&gt; workshop at &lt;a href=&#34;http://www.modelsconference.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;#&#34;&gt;CMA@MODELS&#39;13&lt;/a&gt; workshop at &lt;a href=&#34;http://www.modelsconference.org/&#34; target=&#34;_blank&#34;&gt;MODELS&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://cserg0.site.uottawa.ca/cma2013re/&#34;&gt;CMA@RE&#39;13&lt;/a&gt; workshop at &lt;a href=&#34;http://www.re2013.inf.puc-rio.br&#34; target=&#34;_blank&#34;&gt;RE&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.hpi.uni-potsdam.de/giese/events/2013/volt/&#34;&gt;VOLT&#39;13&lt;/a&gt; workshop at &lt;a href=&#34;http://www.model-transformation.org/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;External reviewer for &lt;a href=&#34;http://2013.icse-conferences.org/&#34; target=&#34;_blank&#34;&gt;ICSE&#39;13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2012&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Co-chair of the &lt;a href=&#34;http://edusymp2012.irisa.fr/&#34;&gt;8th International Educators&amp;rsquo; Symposium (EduSymp 2012) @ MoDELS 2012&lt;/a&gt; (&lt;a title=&#34;ACM DL&#34; href=&#34;http://dl.acm.org/citation.cfm?id=2425936&#34; target=&#34;_blank&#34;&gt;proceedings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Organizing Committee member and Sponsorship chair for &lt;acronym title=&#34;Journées GDR GPL - CIEL 2012&#34;&gt;&lt;/acronym&gt;&lt;a href=&#34;http://gpl2012.irisa.fr/&#34; target=&#34;_blank&#34;&gt;GDR-GPL&#39;12 &amp;amp; CIEL&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.apsec2012.org&#34; target=&#34;_blank&#34;&gt;APSEC&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://sefm2012.city.academic.gr/&#34; target=&#34;_blank&#34;&gt;SEFM&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;External reviewer for &lt;a href=&#34;http://models2012.info/&#34; target=&#34;_blank&#34;&gt;MoDELS&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://msdl.cs.mcgill.ca/conferences/AMT/&#34;&gt;AMT&#39;12&lt;/a&gt; workshop at &lt;a href=&#34;http://models2012.info/&#34; target=&#34;_blank&#34;&gt;MoDELS&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.model-transformation.org/&#34; target=&#34;_blank&#34;&gt;ICMT&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www2.imm.dtu.dk/conferences/ECMFA-2012/&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www2.imm.dtu.dk/conferences/ECMFA-2012/workshops/#PMDE&#34; target=&#34;_blank&#34;&gt;PMDE&#39;12&lt;/a&gt; workshop at &lt;a href=&#34;http://www2.imm.dtu.dk/conferences/ECMFA-2012/&#34; target=&#34;_blank&#34;&gt;ECMFA&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the CSP track at &lt;a href=&#34;http://conf.laas.fr/wetice2012/&#34; target=&#34;_blank&#34;&gt;WETICE&#39;12&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2011&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.apsec2011.org&#34; target=&#34;_blank&#34;&gt;APSEC&#39;11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://planet-sl.org/itsle2011/&#34; target=&#34;_blank&#34;&gt;ITSLE&#39;11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;External reviewer for &lt;a href=&#34;http://ecs.victoria.ac.nz/Events/MODELS2011/&#34; target=&#34;_blank&#34;&gt;MoDELS&#39;11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;External reviewer for INDIN&#39;11&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.ecmfa-2011.org/&#34;&gt;ECMFA&#39;11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for &lt;a href=&#34;http://www.lifl.fr/idm-gpl&#34;&gt;IDM&#39;11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www-lisic.univ-littoral.fr/inforsid2011/index.php?p=session2&#34;&gt;&amp;quot;SI &amp;amp; IDM&amp;quot;&lt;/a&gt; track at INFORSID&#39;11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2010&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.cis.uab.edu/FML2010/&#34;&gt;FML&#39;10&lt;/a&gt; workshop at ECOOP&#39;10&lt;/li&gt;
+&lt;li&gt;PC member for the &lt;a href=&#34;http://www.irisa.fr/triskell/IDM2010/SafeModel/SafeModel-IDM2010.html&#34;&gt;SafeModel&#39;10&lt;/a&gt; workshop&lt;/li&gt;
+&lt;li&gt;External reviewer for MoDELS&#39;10&lt;/li&gt;
+&lt;li&gt;External reviewer for CBSE&#39;10&lt;/li&gt;
+&lt;li&gt;Sponsorship chair for &lt;acronym title=&#34;9th International Conference on Aspect-Oriented Software Development&#34;&gt;&lt;a href=&#34;http://www.aosd.net/2010/&#34;&gt;AOSD&#39;10&lt;/a&gt;&lt;/acronym&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2009&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizing Committee member for &lt;acronym title=&#34;1st International Workshop on Model Transformation with ATL&#34;&gt;&lt;a href=&#34;http://www.emn.fr/x-info/atlanmod/index.php/MtATL2009&#34;&gt;MtATL&#39;09&lt;/a&gt;&lt;/acronym&gt;&lt;/li&gt;
+&lt;li&gt;External reviewer for Notère&#39;09&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2008&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chair of the workshop SeMo&#39;08 at &lt;a href=&#34;http://www.planetmde.org/idm08/&#34; target=&#34;_blank&#34;&gt;&lt;acronym title=&#34;4ième Journée sur l&#39;Ingénierie Dirigée par les Modèles (IDM 2008)&#34;&gt;IDM&#39;08&lt;/acronym&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Local chair for &lt;acronym title=&#34;1st International Conference on Software Language Engineering&#34;&gt;&lt;a href=&#34;http://planet-sl.org/sle2008/&#34;&gt;SLE&#39;08&lt;/a&gt;&lt;/acronym&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2007&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chair of the workshop SeMo&#39;07 at &lt;a href=&#34;http://www.planetmde.org/idm07/&#34; target=&#34;_blank&#34;&gt;&lt;acronym title=&#34;3ième Journée sur l&#39;Ingénierie Dirigée par les Modèles (IDM 2007)&#34;&gt;IDM&#39;07&lt;/acronym&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PC member for MP&#39;07 workshop&lt;/li&gt;
+&lt;li&gt;Organizing Committee member for &lt;a href=&#34;http://www.l-m-o.org/&#34;&gt;LMO&#39;07&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Organizing Committee member for &lt;a href=&#34;http://www.planetmde.org/idm07/&#34; target=&#34;_blank&#34;&gt;IDM&#39;07&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-services&#34;&gt;Other Services&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Founding member and coordinator of the 
+&lt;a href=&#34;http://gemoc.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GEMOC Initiative&lt;/a&gt; (Eclipse Research Consortium, Eclipse project, Workshop&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Reviewer for different national research agencies and the European Union.&lt;/li&gt;
+&lt;li&gt;Member of hiring juries for academic positions, and PhD committees&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/about/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/about/talks/</guid>
+      <description>&lt;h4&gt;2019&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/smart-modeling-on-the-convergence-of-scientific-and-engineering-models&#34; target=&#34;_blank&#34;&gt;Smart Modeling: On the Convergence of Scientific and Engineering Models&lt;/a&gt;&lt;/i&gt;. Invited talk at Lancaster university, UK (14/11/19).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/2019-09mde4-iotkeynotecombemale&#34; target=&#34;_blank&#34;&gt;Bringing Intelligence to Sociotechnical IoT Systems: Modeling Opportunities and Challenges&lt;/a&gt;&lt;/i&gt;. Keynote at MDE4IoT’19, DE (15/09/19).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/breathe-life-into-your-ide&#34; target=&#34;_blank&#34;&gt;Breathe Life Into Your IDE&lt;/a&gt;&lt;/i&gt;. Talk at LangDev’19, NL (22/03/19).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2018&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/model-execution-past-present-and-future&#34; target=&#34;_blank&#34;&gt;Model Execution: Past, Present and Future&lt;/a&gt;&lt;/i&gt;. Keynote at EXE&#39;18, DK (14/10/18).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/modeling-for-sustainability-or-how-to-make-smart-cps-smarter&#34; target=&#34;_blank&#34;&gt;Modeling For Sustainability - Or How to Make Smart CPS Smarter?&lt;/a&gt;&lt;/i&gt;. Keynote at Models@run.time&#39;18, DK (14/10/18), and invited talk at TU Wien, AT (15/05/18)&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/execution-framework-of-the-gemoc-studio&#34; target=&#34;_blank&#34;&gt;Execution Framework of the GEMOC Studio&lt;/a&gt;&lt;/i&gt;. Talk at LangDev&#39;18, NL (08/03/18).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2017&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/model-simulation-graphical-animation-and-omniscient-debugging-with-ecoretools-and-sirius-animator&#34; target=&#34;_blank&#34;&gt;Model Simulation, Graphical Animation, and Omniscient Debugging with Sirius Animator&lt;/a&gt;&lt;/i&gt;. Invited talk at SiriusCon&#39;17, FR (09/11/17).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/modeling-for-sustainability-or-how-to-make-smart-cps-smarter&#34; target=&#34;_blank&#34;&gt;Modeling For Sustainability - Or How to Make Smart CPS Smarter?&lt;/a&gt;&lt;/i&gt;. Invited talk at CWI, NL (03/11/17).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;https://www.slideshare.net/BenotCombemale/sound-yet-flexible-modeling-a-language-engineering-point-of-view&#34; target=&#34;_blank&#34;&gt;Sound, yet Flexible, Modeling: A Language Engineering Point Of View&lt;/a&gt;&lt;/i&gt;. Keynote at FlexMDE&#39;17, US (18/09/17).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/hdr-defense&#34; target=&#34;_blank&#34;&gt;Towards Language-Oriented Modeling&lt;/a&gt;&lt;/i&gt;. Invited talk at UQAM, CA (03/05/17).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/from-mde-to-sle-april-17th-2015&#34; target=&#34;_blank&#34;&gt;From Model (driven) Engineering, to Language (driven) Engineering&lt;/a&gt;&lt;/i&gt;. Invited talk at CEA-DAM (12/01/17).
+&lt;/ul&gt;
+&lt;h4&gt;2016&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/modeling-for-sustainability-69844407&#34; target=&#34;_blank&#34;&gt;Modeling for Sustainability&lt;/a&gt;&lt;/i&gt;. Invited talk at Lancaster University (05/12/16).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/dynamic-vv-in-languageoriented-modeling&#34; target=&#34;_blank&#34;&gt;Dynamic Validation &amp; Verification in Language-Oriented Modeling&lt;/a&gt;&lt;/i&gt;. Keynote at &lt;a href=&#34;https://sites.google.com/site/modevva/&#34; target=&#34;_blank&#34;&gt;MoDeVVA 2016&lt;/a&gt; (03/10/16).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/hdr-defense&#34; target=&#34;_blank&#34;&gt;Towards Language-Oriented Modeling&lt;/a&gt;&lt;/i&gt;. Invited talk at RWTH Aachen University (11/07/16).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/modeling-for-smart-cyberphysical-systems&#34; target=&#34;_blank&#34;&gt;Modeling for Smart Cyber-Physical Systems&lt;/a&gt;&lt;/i&gt;. Talk at CPS days (26/01/16).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2015&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/a-journey-through-mde-dsl-and-sle-july-2nd-2015&#34; target=&#34;_blank&#34;&gt;A Journey Through MDE, DSL and SLE&lt;/a&gt;&lt;/i&gt;. Talk at JDEV 2015 (02/07/15). &lt;a href=&#34;https://webcast.in2p3.fr/videos-dsl_dsml_et_l_ingenierie_par_les_modeles&#34; target=&#34;_blank&#34;&gt;(video in French)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://siriuslab.github.io/talks/BreatheLifeInYourDesigner/slides&#34; target=&#34;_blank&#34;&gt;Breathe Life into Your Designer!&lt;/a&gt;&lt;/i&gt; Talk at EclipseCon France 2015 (25/06/15).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/modeling-for-sustainability-june-19th-2015&#34; target=&#34;_blank&#34;&gt;Modeling for Sustainability&lt;/a&gt;&lt;/i&gt;. Invited talk at INRA (19/06/15).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/on-the-globalization-of-modeling-languages&#34; target=&#34;_blank&#34;&gt;On the Globalization of Modeling Languages&lt;/a&gt;&lt;/i&gt;. Invited talk at IRT Saint Exupery (08/06/15).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/from-mde-to-sle-april-17th-2015&#34; target=&#34;_blank&#34;&gt;From Model (driven) Engineering, to Language (driven) Engineering&lt;/a&gt;&lt;/i&gt;. &lt;a href=&#34;http://www.cs.mcgill.ca/news/colloquium/113&#34; target=&#34;_blank&#34;&gt;Invited talk at McGill&lt;/a&gt; (17/04/15).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2014&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;From Model (driven) Engineering, to Language (driven) Engineering&lt;/i&gt;. Invited talk at University of Namur (16/12/14).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/the-role-of-software-languages-in-the-sociotechnical-coordination-oct-2014&#34; target=&#34;_blank&#34;&gt;The Role of (Software) Languages in the Socio-Technical Coordination&lt;/a&gt;&lt;/i&gt;. Invited talk at the 2nd Workshop on TowArds the Model DrIveN Organization (AMINO 2014).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;MDE and SLE: From Theory to Practice&lt;/i&gt;. Invited talk at the MDE Day of DevLog (27/10/14).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2013&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Modeling, Composition and Simulation of Heterogeneous Models&lt;/i&gt;. Invited talk at the MDE Day of DevLog (18/10/13).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;On the Globalization of Modeling Languages&lt;/i&gt;. Invited keynote at Neptune 2013 (22/05/13).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/on-modeling-and-testing-when-unpredictability-becomes-the-pattern-april-2nd-2013&#34; target=&#34;_blank&#34;&gt;On Modeling and Testing When Unpredictability Becomes a Pattern&lt;/a&gt;&lt;/i&gt;. Keynote keynote at CIEL 2013 (02/04/13).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;On the Globalization of Modeling Languages&lt;/i&gt;. Colorado State University, USA (20/02/13).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;On Language Composability&lt;/i&gt;. Workshops AOM at Bellairs (09/02/13).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Model-Driven Engineering for Software Language Engineering&lt;/i&gt;. Università degli Studi di Milano, Italy (16/01/13).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2012&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/formally-defining-and-iterating-infinite-models-models-2012&#34; target=&#34;_blank&#34;&gt;Formally Defining and Iterating Infinite Models&lt;/a&gt;&lt;/i&gt;. 68NQRT Seminar at IRISA/Inria Rennes, France (25/10/12).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Model Driven Engineering for Software Language Engineering&lt;/i&gt;. Universidade Federal do Paraná, Brazil (12/07/12).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Mashup of Meta-Languages: Building Modular and Efficient DSML&lt;/i&gt;. Workshops AOM and CAMPaM at Bellairs (30/04/12).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2011&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Executable Metamodeling for Model V&amp;V&lt;/i&gt;. Kings College London (10/06/11).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2010&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/hyperagility-a-modeldriven-software-agility-from-designtime-to-runtime&#34; target=&#34;_blank&#34;&gt;Hyper-Agility: A Model-Driven Software Agility from Design-Time to Run-Time&lt;/a&gt;&lt;/i&gt;. Agile Tour Rennes 2010 (07/10/10).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;&lt;a href=&#34;http://fr.slideshare.net/BenotCombemale/executable-metamodeling-for-model-vv&#34; target=&#34;_blank&#34;&gt;Executable Metamodeling for Model V&amp;V&lt;/a&gt;&lt;/i&gt;. Colorado State University, USA (25/05/10).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2009&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;A Formal Metamodeling Approach. Application to Model V&amp;V&lt;/i&gt;. LAAS CNRS (Toulouse, 13/02/09), LISI (Poitiers, 26/03/09), and LIP6 (Paris, 05/05/09).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;A Formal Metamodeling Approach. Application to Model V&amp;V and Autonomous Systems&lt;/i&gt;. Inria Rennes ( 21/01/09) and Inria Lille (13/03/09).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2008&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Metamodeling Approach for Model Simulation&lt;/i&gt;. CEA-List at Saclay (19/09/08).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Model Verification and Simulation using Model Transformation&lt;/i&gt;. MDE Training at EMN (18/06/08).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2007&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Execution Semantics &amp; MDE, Application to the Process Engineering&lt;/i&gt;. INRIA, ATLAS team (03/01/07).&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;A Framework to Formalise the MDE Foundations&lt;/i&gt;. IRIT Seminar (06/06/07).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2006&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;SPEM 1.1 vs. SPEM 2.0&lt;/i&gt;. Topcased Seminar (19/06/06).&lt;/li&gt;
+&lt;!--&lt;li&gt;&lt;i&gt;Models Execution: Some Issues...&lt;/i&gt;. EJCP, doctoral session (09/06/06).&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://people.irisa.fr/Benoit.Combemale/about/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/about/bio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

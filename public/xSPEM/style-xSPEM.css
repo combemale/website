@@ -1,0 +1,152 @@
+/* Personal home page css, by Pierre-Loic Garoche */
+/* copyright (c) 2006-12-10 Garoche Pierre-Loic */
+/* Copyleft: this work of art is free, you can redistribute it and/or modify it  according to terms of the Free Art license.*/
+/* You will find a specimen of this license on the site Copyleft Attitude http://artlibre.org as well as on other sites. */
+
+body { 
+/*       width: 1024px;*/
+       text-align: justify; 
+       font-family: arial; 
+       background-color: #FFFFFF; 
+       }
+
+#logos { 
+float:right
+ }
+
+#container>div { 
+                 padding:10px;
+                 border-color:#344795;
+                 border-style:dotted;
+                 border-width:1px;     
+      }
+
+#footer{ float:right; clear:right; }
+
+#container{
+            margin: 10px;
+            margin-right: 10px;
+            padding: 0;
+}
+
+#menu{
+       width: 170px;
+       font-size: 12px;
+       border-color:#344795;
+       border-style:dashed;
+       border-width:2px;     
+       margin:20px;
+       padding: 10px;
+       float:right;
+       clear: right;
+right: 10px;
+
+ }
+
+
+#menu>h3, #container>div h3{
+                   border-color:#344795;
+                   border-style:solid;
+                   border-width:0 0 3px 0;
+                   font-size:medium;
+                   font-weight:700;
+                   margin:0;
+                   padding-left:0em;
+                   text-transform:uppercase;
+                   }
+
+
+#menu>h3:first-letter, div>h3:first-letter{
+                                            color:#344795;
+                                            background-color:transparent;
+
+}
+
+/* #menu, #container>div { border-style: dashed; */
+/*                         border-width: medium;        /\* sets border width on all sides *\/ */
+/*                         border-color: lime; } */
+#technologie ul,#theme ul{
+                           margin-bottom:1.5em;
+                           margin-top:0.5em;
+                           }
+
+#menu li{
+          /* display:inline; */
+          list-style:none;
+          }
+
+/* a { color:#00000a0; text-decoration: none; } */
+/* a:hover { text-decoration: underline; } */
+a.toptable { color: #0000a0; }
+
+a{
+   color:#4444CD;
+   background-color:transparent;
+   text-decoration:none;
+   }
+
+a:hover{
+         background-color:#ffecce;
+         color:#4444CD;
+}
+
+img { 
+      background-color:transparent;
+      border-color:transparent;
+      border-width:0px;
+      border-style: dotted; 
+}
+
+a>img:hover{ 
+             color:#fff;
+             background-color:#fff;
+             border-color:#4444CD;
+             
+             text-decoration:overline;
+      }
+
+
+table.toptable {
+    width : 100%; 
+    text-align : center; 
+    background-color: #ffffcc;
+  }
+div.toptable {
+    font-size: small;
+    background-color: #ccffcc;
+  }
+dl.parcours dt { font-weight: bold; }
+table.cours a { color: #ee5500; font-weight: bold; }
+th { text-align : center; }
+td { text-align : left; }
+
+p.compact { margin: 0; }
+ul.compact { margin: 0; }
+
+div.webmaster { 
+                text-align : right; 
+                font-size:80%;
+                font-family: sans-serif; 
+                font-style: italic;
+                }
+
+
+
+hr { visibility: hidden } 
+
+*.references { font-size:80%; }
+*.authors { 
+            font-variant: small-caps;
+            }
+
+*.authors a , a:hover { color:#000; background-color:transparent;}
+
+*.abstract { 
+	    font-size:70%;
+	    background-color:#D2E2FD;
+	    width:90%;
+	    border:2px solid #344795;
+	    padding:5px;
+	   }
+
+*.links_publi { font-size:75%;}

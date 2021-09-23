@@ -1,0 +1,18 @@
+{
+  "name": "Benoit Combemale",
+  "short_name": "Benoit Combemale",
+  "lang": "en-us",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
+  "icons": [{
+    "src": "/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/Benoit.Combemale/?utm_source=web_app_manifest"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuel Wimmer | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/author/manuel-wimmer/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/author/manuel-wimmer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Manuel Wimmer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>Manuel Wimmer</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/author/manuel-wimmer/</link>
+    </image>
+    
+    <item>
+      <title>Behavioral Interfaces for Executable DSLs</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-behavioralinterface/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-behavioralinterface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Languages in Industry 4.0: An Extended Systematic Mapping Study</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-industry4.0/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-industry4.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Runtime Monitoring for Executable DSLs</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/ecmfa20-monitoring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/ecmfa20-monitoring/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/author/benoit-combemale/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/author/benoit-combemale/index.xml" rel="self" type="application/rss+xml" />
+    <description>Benoit Combemale</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>Benoit Combemale</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/author/benoit-combemale/</link>
+    </image>
+    
+    <item>
+      <title>Automatic generation of Truffle-based interpreters for Domain-Specific Languages</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/ecmfa20-truffle/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/ecmfa20-truffle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behavioral Interfaces for Executable DSLs</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-behavioralinterface/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-behavioralinterface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-evolving code with evolving metamodels</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/icse20-evolution/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/icse20-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing and classifying model transformation reuse approaches across metamodels</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-mtreuse/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-mtreuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loop Aggregation for Approximate Scientific Computing</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/iccs20-loopagregation/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/iccs20-loopagregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Languages in Industry 4.0: An Extended Systematic Mapping Study</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-industry4.0/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-industry4.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Runtime Monitoring for Executable DSLs</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/ecmfa20-monitoring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/ecmfa20-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Software Language Extension Problem</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-lep/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/sosym20-lep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Model-Driven Sustainability Evaluation</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/publication/cacm20-sustainability/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/publication/cacm20-sustainability/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

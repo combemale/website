@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>current | Benoit Combemale</title>
+    <link>https://people.irisa.fr/Benoit.Combemale/tag/current/</link>
+      <atom:link href="https://people.irisa.fr/Benoit.Combemale/tag/current/index.xml" rel="self" type="application/rss+xml" />
+    <description>current</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
+      <title>current</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/tag/current/</link>
+    </image>
+    
+    <item>
+      <title>Intelligence des process de support et des communautés</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/ipsco/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/ipsco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OneWay</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/oneway/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/oneway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Reuse of Language Components  (LangComponent)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/langcomponent/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/langcomponent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debug4Science</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/debug4science/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/debug4science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLObalization in Systems Engineering (GLOSE)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/glose/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/glose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile Language Engineering (ALE)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/ale/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/ale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilient Software Science (RESIST)</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/project/resist/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/project/resist/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
