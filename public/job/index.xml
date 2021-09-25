@@ -13,6 +13,68 @@
     </image>
     
     <item>
+      <title>Internship: Towards Distributed and Scalable IDE.</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/job/msc-mep/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0200</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/job/msc-mep/</guid>
+      <description>&lt;h2 id=&#34;context-and-objectives&#34;&gt;Context and objectives&lt;/h2&gt;
+&lt;p&gt;Integrated Development Environments (IDEs) are indispensable companions to programming languages. They are increasingly turning towards Web-based infrastructure. The rise of protocols such as the Language Server Protocol (LSP) that standardize the separation between a language-agnostic IDE, and a language server that provides all language services (e.g., auto completion, compiler&amp;hellip;) has allowed the emergence of high quality generic Web components to build the IDE part that runs in the browser. Protocols allow language servers to be reused accross different IDEs, and web-based interfaces facilitate access to the IDE.&lt;/p&gt;
+&lt;p&gt;Beyond these first benefits, web-based IDEs also open up new perspectives in terms of collaborative environments, both for general-purpose languages and domain-specific languages. However, this requires all language services to be well identified and to scale according to their use.&lt;/p&gt;
+&lt;p&gt;In contrast with the current approaches that provide IDEs in the form of a monolithic client-server architecture, we propose to investigate the modularization of the various languages services, and the definition of a specific protocol between them to support their individual deployment, and possible dynamic reconfiguration according to their use.&lt;/p&gt;
+&lt;h2 id=&#34;description-of-the-work&#34;&gt;Description of the work&lt;/h2&gt;
+&lt;p&gt;After a review of the literature and the state of practices regarding the recently introduced protocols, the student(s) will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;propose a systematic approach to modularize the various language services, and establish a protocol between them to suport their communication. In particular, the protocol will have to manage the shared ressources, e.g., the programs available in the workspace.&lt;/li&gt;
+&lt;li&gt;a generative approach to automate the deployment or dynamic reconfiguration of the vraious services accross the available execution platform, and according to the defined protocol and current context.&lt;/li&gt;
+&lt;li&gt;a predictive model to capture the environment and the runtime data of the various language services, and recommend the best configuration of the deployment according to the current context.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
+&lt;p&gt;The candidate will work at Inria in the DiverSE team. Inria is the French national institute for research in computer science. There are 8 Inria research centres located throughout France, hosting more than 200 research teams. The DiverSE team is located in Rennes. DiverSE’s research is in the area of software engineering. The team is actively involved in European, French and industrial projects and is composed of 9 faculty members, 20 PhD students, 2 post-docs and 4 engineers.
+The candidate will work in the context of one of the main topic explored in the team, involving various professors and students, as well as a close partnership with CWI in Amsterdam. The main supervisors will be Prof. Benoit Combemale and Prof. Olivier Barais (University of Rennes 1, DiverSE team).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internship: Towards Polyglot Code Refactoring</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/job/msc-microservicedsl/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0200</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/job/msc-microservicedsl/</guid>
+      <description>&lt;h2 id=&#34;keywords&#34;&gt;keywords&lt;/h2&gt;
+&lt;p&gt;Programming Language, Software Language Engineering, Domain-Specific Language, Polyglot Development, Integrated Development Environment, Refactoring, Co-evolution, Code Repair.&lt;/p&gt;
+&lt;h2 id=&#34;context-and-challenges&#34;&gt;Context and Challenges&lt;/h2&gt;
+&lt;p&gt;The evolution of software engineering discipline has seen the emergence of a multitude of programming languages (PL), each dedicated to a particular application concern. Nowadays, complex software development often involves more than a single language for the implementation, referred to as polyglot development . Indeed, we observe more and more software projects that are implemented with various PLs, in particular, to combine their strengths and counterbalance their weaknesses. For example, polyglot development is relevant and popular in development of web applications, video games, DSLs, etc. Emerging solutions do exist that support polyglot programming relying on Intermediate Representation (IR), such as the GrallVM/Truffle, PolyNote notebook, LLVM, or WebAssembly.&lt;/p&gt;
+&lt;p&gt;While polyglot development allows developers to choose the appropriate language to implement a given concern, it also leads to a set of loosely coupled (i.e., with data sharing through variables and functions calls) and heterogeneous programs difficult to globally reason over them. Indeed, the existing frameworks do not reify the relationships between them and poorly support the developers on the global impact (i.e., in other programs) of any code change.&lt;/p&gt;
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+&lt;p&gt;The main objectives of this internship are the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;state of the art on semantic-preserving refactorings, co-evolution and code repair, experimented on specific languages ;&lt;/li&gt;
+&lt;li&gt;complement the catalog of semantic-preserving refactorings to cover polyglot development scenarios ;&lt;/li&gt;
+&lt;li&gt;Propose a unifying development framework to convey any code change over the overall heterogeneous programs, and analyse the global consistency ;&lt;/li&gt;
+&lt;li&gt;develop a prototype that automates the application of polyglot semantic-preserving refactorings in reaction to code changes to ensure the global consistency of the overall software system.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This internship will be done in the context of international collaboration between DiverSE/IRISA and CWI through the international ALE team, and with our contact in ORACLE (GrallVM/Truffle).&lt;/p&gt;
+&lt;h2 id=&#34;required-and-appreciated-skills&#34;&gt;Required and appreciated skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;strong skills in programming, more specifically, fluent in object-oriented programming ;&lt;/li&gt;
+&lt;li&gt;passionate about programming languages, language theory, language design &amp;amp; implementation and integrated development environment ;&lt;/li&gt;
+&lt;li&gt;autonomy, and excellent English speaking and writing skills.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
+&lt;p&gt;The candidate will work in the DiverSE team, common to CNRS (IRISA) and Inria. The DiverSE team is located in Rennes, France. DiverSE’s research is in the field of software engineering. The team is actively involved in European, French and industrial projects and is composed of 9 professors/researchers, 20 PhD students, 4 post-docs and 3 engineers. The main supervisors of the thesis will be Benoit Combemale (&lt;a href=&#34;mailto:benoit.combemale@irisa.fr&#34;&gt;benoit.combemale@irisa.fr&lt;/a&gt;) and Djamel Khelladi (&lt;a href=&#34;mailto:djamel-eddine.khelladi@irisa.fr&#34;&gt;djamel-eddine.khelladi@irisa.fr&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fabio Niephaus et al.. “Example-Based Live Programming for Everyone: Building Language-agnostic Tools for Live Programming with LSP and GraalVM”, Onward! 2020&lt;/li&gt;
+&lt;li&gt;McDirmid, Sean. “Usable live programming”, Onwards! 2013&lt;/li&gt;
+&lt;li&gt;Santolucito, Mark, William T. Hallahan, and Ruzica Piskac. “Live programming by example.” In Extended Abstracts of the CHI 2019&lt;/li&gt;
+&lt;li&gt;Hidehiko Masuhara, Shusuke Takahashi, Yusuke Izawa, Youyou Cong. “Toward a Multi-Language and Multi-Environment Framework for Live Programming”, LIVE 2020.&lt;/li&gt;
+&lt;li&gt;Würthinger, Thomas, et al. “One VM to rule them all”, Onward! 2013&lt;/li&gt;
+&lt;li&gt;Niephaus, Fabio, Tim Felgentreff, and Robert Hirschfeld. “GraalSqueak: toward a smalltalk-based tooling platform for polyglot programming” In Proc. of MPLR 2019&lt;/li&gt;
+&lt;li&gt;Niephaus, Fabio, Tim Felgentreff, and Robert Hirschfeld. “Towards polyglot adapters for the graalvm” In Proc. of Programming 2019.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Postdoctoral position: A programming model for simulation processes</title>
       <link>https://people.irisa.fr/Benoit.Combemale/job/postdoc-simulationprocesses/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
@@ -200,66 +262,6 @@ The main advisor of the PhD thesis will be Prof. Benoit Combemale (University of
 &lt;li&gt;T. Kühne, “Unifying explanatory and constructive modeling: towards removing the gulf between ontologies and conceptual models,” in MODELS 2016. ACM, 2016, pp. 95–102.&lt;/li&gt;
 &lt;li&gt;E. A. Lee, “Modeling in engineering and science,” Commun. ACM, vol. 62, no. 1, pp. 35–36, Dec. 2018.&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Internship: From Monolithic to Microservice Architecture: The Case of Extensible and Domain-Specific IDEs</title>
-      <link>https://people.irisa.fr/Benoit.Combemale/job/msc-microservicedsl/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0200</pubDate>
-      <guid>https://people.irisa.fr/Benoit.Combemale/job/msc-microservicedsl/</guid>
-      <description>&lt;h2 id=&#34;keywords&#34;&gt;keywords&lt;/h2&gt;
-&lt;p&gt;Microservice, DevOps, Domain-Specific Languages&lt;/p&gt;
-&lt;h2 id=&#34;context-and-challenges&#34;&gt;Context and Challenges&lt;/h2&gt;
-&lt;p&gt;The software engineering community recently introduced the concept of microservice [1] as a support for a new distributed and dynamic software architecture. Microservices are orchestrated, self-contained, reusable and minimalist processes interacting via messages. This new software architecture enables complex applications to be more readable and maintainable, together with a better quality of service with scalability and dynamic reconfiguration. Both academy and industry investigated new tools and methods to support software development following this new architecture (e.g., microprofile, Quarkus/SpringBoot, Kubernetes/Nomad, etc). In practice, this new software architecture has been instrumental in the development of large-scale applications with complex and varying contracts of quality of services, such as Netflix [2], Spotify [3], and Uber [4].&lt;/p&gt;
-&lt;p&gt;However, the success of such an architecture in large applications lead to an increasing number of microservices that comes with new challenges. In particular, the developer needs to provide complex orchestrators, and faces complex deployment and delivery pipelines over very heterogeneous technologies (e.g., various execution platforms, communication protocols, etc.).&lt;/p&gt;
-&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
-&lt;p&gt;During this internship, we propose to explore the definition of an environment that supports the developper in the task of specifying, orchestrating, and deploying complex applications based on microservices. The main objective is to identify the relevant abstractions for the developper within domain-specific languages [5,6], and to define the required generative approaches to leverage on the diversity of the available technologies.&lt;/p&gt;
-&lt;p&gt;As a case study, we propose in this internship to focus on Integrated Development Environments (IDEs). Modern IDEs are complex software that offers a wide variety of very heterogeneous services (workspaces, syntax checking, autocompletion, debugging, &amp;hellip;). Depending on the language, its use, and the available environment, the set of available services might change to provide a more tailored experience, and it is essential to support the required workflows that correspond to the different usages.&lt;/p&gt;
-&lt;h2 id=&#34;description-of-the-work&#34;&gt;Description of the Work&lt;/h2&gt;
-&lt;p&gt;The candidate will first perform a literature review on both microservice definition and orchestration, and the recent practices in IDE development (e.g., protocols like LSP and DAP). This body of knowledge will be used as a basis for identifying the relevant abstractions to be implemented in the form of domain-specific languages. Such a domain-specific language will be complemented with the required geenrative appraoch to automate the modularisation, deployment and dynamic reconfiguration of software applications based on microservices.&lt;/p&gt;
-&lt;p&gt;In the context of this internship, the candidate will work more specifically on IDEs, and will propose an approach to modularize and orchestrate environment-agnostic language features in IDEs (in a similar fashion to Microsoft VSCode&amp;rsquo;s language services but with additional concerns of distribution, scalability and reconfiguration) according to an architecture based on microservice.&lt;/p&gt;
-&lt;h2 id=&#34;required-and-appreciated-skills&#34;&gt;Required and appreciated skills&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;English language proficiency&lt;/li&gt;
-&lt;li&gt;Autonomy, communications skills, and desire to work in a team environment&lt;/li&gt;
-&lt;li&gt;Expertise in object-oriented development&lt;/li&gt;
-&lt;li&gt;Strong interest in programming languages and language engineering&lt;/li&gt;
-&lt;li&gt;Experience in the development of IDE components will be a plus&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
-&lt;p&gt;The candidate will work at Inria in the DiverSE team. Inria is the French national institute for research in computer science. There are 8 Inria research centres located throughout France, hosting more than 200 research teams. The DiverSE team is located in Rennes. DiverSE’s research is in the area of software engineering. The team is actively involved in European, French and industrial projects and is composed of 9 faculty members, 20 PhD students, 2 post-docs and 4 engineers. The candidate will work in the context of one of the main topic currently explored in the team, involving various professors and students. The main supervisors will be Prof. Benoit Combemale and Prof. Olivier Barais (University of Rennes 1, DiverSE team), as well as Pierre Jeanjean, a PhD student currently exploring some related challenges.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;J. Thones. “Microservices”. In: IEEE Software 32.1 (2015), pp. 116–116. doi: 10.1109/MS.2015.11.&lt;/li&gt;
-&lt;li&gt;M. McGarr, E. Bukoski, and B. Moyles. How We Build Code at Netflix. 2016. url: &lt;a href=&#34;http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html&#34;&gt;http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;How We Use Backstage at Spotify. 2020. url: &lt;a href=&#34;https://engineering.atspotify.com/2020/04/21/how-we-use-backstage-at-spotify/&#34;&gt;https://engineering.atspotify.com/2020/04/21/how-we-use-backstage-at-spotify/&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Einas Haddad. Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow. 2015. url: &lt;a href=&#34;https://eng.uber.com/service-oriented-architecture/&#34;&gt;https://eng.uber.com/service-oriented-architecture/&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Benoit Combemale et al. Engineering Modeling Languages: Turning Domain Knowledge into Tools. Chapman and Hall/CRC, Nov. 2016, p. 398. url: http: //mdebook.irisa.fr/&lt;/li&gt;
-&lt;li&gt;Douglas C. Schmidt. “Guest Editor’s Introduction: Model-Driven Engineering”. In: Computer 39.2 (Feb. 2006), pp. 25–31. issn: 0018-9162. doi: 10.1109/ MC.2006.58. url: &lt;a href=&#34;https://doi.org/10.1109/MC.2006.58&#34;&gt;https://doi.org/10.1109/MC.2006.58&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Internship: Towards Distributed and Scalable IDE.</title>
-      <link>https://people.irisa.fr/Benoit.Combemale/job/msc-mep/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0200</pubDate>
-      <guid>https://people.irisa.fr/Benoit.Combemale/job/msc-mep/</guid>
-      <description>&lt;h2 id=&#34;context-and-objectives&#34;&gt;Context and objectives&lt;/h2&gt;
-&lt;p&gt;Integrated Development Environments (IDEs) are indispensable companions to programming languages. They are increasingly turning towards Web-based infrastructure. The rise of protocols such as the Language Server Protocol (LSP) that standardize the separation between a language-agnostic IDE, and a language server that provides all language services (e.g., auto completion, compiler&amp;hellip;) has allowed the emergence of high quality generic Web components to build the IDE part that runs in the browser. Protocols allow language servers to be reused accross different IDEs, and web-based interfaces facilitate access to the IDE.&lt;/p&gt;
-&lt;p&gt;Beyond these first benefits, web-based IDEs also open up new perspectives in terms of collaborative environments, both for general-purpose languages and domain-specific languages. However, this requires all language services to be well identified and to scale according to their use.&lt;/p&gt;
-&lt;p&gt;In contrast with the current approaches that provide IDEs in the form of a monolithic client-server architecture, we propose to investigate the modularization of the various languages services, and the definition of a specific protocol between them to support their individual deployment, and possible dynamic reconfiguration according to their use.&lt;/p&gt;
-&lt;h2 id=&#34;description-of-the-work&#34;&gt;Description of the work&lt;/h2&gt;
-&lt;p&gt;After a review of the literature and the state of practices regarding the recently introduced protocols, the student(s) will:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;propose a systematic approach to modularize the various language services, and establish a protocol between them to suport their communication. In particular, the protocol will have to manage the shared ressources, e.g., the programs available in the workspace.&lt;/li&gt;
-&lt;li&gt;a generative approach to automate the deployment or dynamic reconfiguration of the vraious services accross the available execution platform, and according to the defined protocol and current context.&lt;/li&gt;
-&lt;li&gt;a predictive model to capture the environment and the runtime data of the various language services, and recommend the best configuration of the deployment according to the current context.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
-&lt;p&gt;The candidate will work at Inria in the DiverSE team. Inria is the French national institute for research in computer science. There are 8 Inria research centres located throughout France, hosting more than 200 research teams. The DiverSE team is located in Rennes. DiverSE’s research is in the area of software engineering. The team is actively involved in European, French and industrial projects and is composed of 9 faculty members, 20 PhD students, 2 post-docs and 4 engineers.
-The candidate will work in the context of one of the main topic explored in the team, involving various professors and students, as well as a close partnership with CWI in Amsterdam. The main supervisors will be Prof. Benoit Combemale and Prof. Olivier Barais (University of Rennes 1, DiverSE team).&lt;/p&gt;
 </description>
     </item>
     

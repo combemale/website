@@ -88,8 +88,7 @@ user_groups:
 - Visitors
 ---
 
-I am Full Professor of Software Engineering at the [University of Rennes 1](https://www.univ-rennes1.fr/), and Head of the Computer Science Department at the engineering school [ESIR](https://esir.univ-rennes1.fr/). 
-I teach in the engineering school [ESIR](https://esir.univ-rennes1.fr/), and evolve within the research team <a href="http://www.diverse-team.fr" target="_blank">DiverSE</a>, joint to the [CNRS](http://www.cnrs.fr) [Research Institute of Computer Science and Random Systems](http://www.irisa.fr/) (IRISA) and <a href="http://www.inria.fr/" target="_blank">Inria</a>. More information in my [complete bio](./about/bio).
+I am Full Professor of Software Engineering at the [University of Rennes 1](https://www.univ-rennes1.fr/). I am the Head of the Computer Science Department at the engineering school [ESIR](https://esir.univ-rennes1.fr/), and researcher within the research team <a href="http://www.diverse-team.fr" target="_blank">DiverSE</a>, joint to the [CNRS](http://www.cnrs.fr) [Research Institute of Computer Science and Random Systems](http://www.irisa.fr/) (IRISA) and <a href="http://www.inria.fr/" target="_blank">Inria</a>. I am also adjunct researcher in the [SM@RT](https://www.irit.fr/SMART/site/) team of the [CNRS](http://www.cnrs.fr) [Research Institute in Computer Science of Toulouse](http://www.irit.fr/) (IRIT). More information in my [complete bio](./about/bio).
 
 <center>
 <!--

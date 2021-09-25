@@ -1,6 +1,6 @@
 +++
-title = "Internship: From Monolithic to Microservice Architecture: The Case of Extensible and Domain-Specific IDEs"
-date = 2020-08-01
+title = "Internship: Towards Polyglot Code Refactoring"
+date = 2021-08-01
 math = false
 highlight = false
 
@@ -12,43 +12,40 @@ caption = ""
 +++
 
 ## keywords
-Microservice, DevOps, Domain-Specific Languages
+Programming Language, Software Language Engineering, Domain-Specific Language, Polyglot Development, Integrated Development Environment, Refactoring, Co-evolution, Code Repair. 
 
 ## Context and Challenges
 
-The software engineering community recently introduced the concept of microservice [1] as a support for a new distributed and dynamic software architecture. Microservices are orchestrated, self-contained, reusable and minimalist processes interacting via messages. This new software architecture enables complex applications to be more readable and maintainable, together with a better quality of service with scalability and dynamic reconfiguration. Both academy and industry investigated new tools and methods to support software development following this new architecture (e.g., microprofile, Quarkus/SpringBoot, Kubernetes/Nomad, etc). In practice, this new software architecture has been instrumental in the development of large-scale applications with complex and varying contracts of quality of services, such as Netflix [2], Spotify [3], and Uber [4].
+The evolution of software engineering discipline has seen the emergence of a multitude of programming languages (PL), each dedicated to a particular application concern. Nowadays, complex software development often involves more than a single language for the implementation, referred to as polyglot development . Indeed, we observe more and more software projects that are implemented with various PLs, in particular, to combine their strengths and counterbalance their weaknesses. For example, polyglot development is relevant and popular in development of web applications, video games, DSLs, etc. Emerging solutions do exist that support polyglot programming relying on Intermediate Representation (IR), such as the GrallVM/Truffle, PolyNote notebook, LLVM, or WebAssembly.
 
-However, the success of such an architecture in large applications lead to an increasing number of microservices that comes with new challenges. In particular, the developer needs to provide complex orchestrators, and faces complex deployment and delivery pipelines over very heterogeneous technologies (e.g., various execution platforms, communication protocols, etc.).
+While polyglot development allows developers to choose the appropriate language to implement a given concern, it also leads to a set of loosely coupled (i.e., with data sharing through variables and functions calls) and heterogeneous programs difficult to globally reason over them. Indeed, the existing frameworks do not reify the relationships between them and poorly support the developers on the global impact (i.e., in other programs) of any code change. 
 
 ## Objectives
 
-During this internship, we propose to explore the definition of an environment that supports the developper in the task of specifying, orchestrating, and deploying complex applications based on microservices. The main objective is to identify the relevant abstractions for the developper within domain-specific languages [5,6], and to define the required generative approaches to leverage on the diversity of the available technologies.
+The main objectives of this internship are the following: 
+1. state of the art on semantic-preserving refactorings, co-evolution and code repair, experimented on specific languages ;
+1. complement the catalog of semantic-preserving refactorings to cover polyglot development scenarios ;
+1. Propose a unifying development framework to convey any code change over the overall heterogeneous programs, and analyse the global consistency ;
+1. develop a prototype that automates the application of polyglot semantic-preserving refactorings in reaction to code changes to ensure the global consistency of the overall software system.
 
-As a case study, we propose in this internship to focus on Integrated Development Environments (IDEs). Modern IDEs are complex software that offers a wide variety of very heterogeneous services (workspaces, syntax checking, autocompletion, debugging, ...). Depending on the language, its use, and the available environment, the set of available services might change to provide a more tailored experience, and it is essential to support the required workflows that correspond to the different usages.
-
-## Description of the Work
-
-The candidate will first perform a literature review on both microservice definition and orchestration, and the recent practices in IDE development (e.g., protocols like LSP and DAP). This body of knowledge will be used as a basis for identifying the relevant abstractions to be implemented in the form of domain-specific languages. Such a domain-specific language will be complemented with the required geenrative appraoch to automate the modularisation, deployment and dynamic reconfiguration of software applications based on microservices.  
-
-In the context of this internship, the candidate will work more specifically on IDEs, and will propose an approach to modularize and orchestrate environment-agnostic language features in IDEs (in a similar fashion to Microsoft VSCode's language services but with additional concerns of distribution, scalability and reconfiguration) according to an architecture based on microservice.
+This internship will be done in the context of international collaboration between DiverSE/IRISA and CWI through the international ALE team, and with our contact in ORACLE (GrallVM/Truffle). 
 
 ## Required and appreciated skills
 
-- English language proficiency
-- Autonomy, communications skills, and desire to work in a team environment
-- Expertise in object-oriented development
-- Strong interest in programming languages and language engineering
-- Experience in the development of IDE components will be a plus
+- strong skills in programming, more specifically, fluent in object-oriented programming ;
+- passionate about programming languages, language theory, language design & implementation and integrated development environment ;
+- autonomy, and excellent English speaking and writing skills.
 
 ## Environment
 
-The candidate will work at Inria in the DiverSE team. Inria is the French national institute for research in computer science. There are 8 Inria research centres located throughout France, hosting more than 200 research teams. The DiverSE team is located in Rennes. DiverSE’s research is in the area of software engineering. The team is actively involved in European, French and industrial projects and is composed of 9 faculty members, 20 PhD students, 2 post-docs and 4 engineers. The candidate will work in the context of one of the main topic currently explored in the team, involving various professors and students. The main supervisors will be Prof. Benoit Combemale and Prof. Olivier Barais (University of Rennes 1, DiverSE team), as well as Pierre Jeanjean, a PhD student currently exploring some related challenges.
+The candidate will work in the DiverSE team, common to CNRS (IRISA) and Inria. The DiverSE team is located in Rennes, France. DiverSE’s research is in the field of software engineering. The team is actively involved in European, French and industrial projects and is composed of 9 professors/researchers, 20 PhD students, 4 post-docs and 3 engineers. The main supervisors of the thesis will be Benoit Combemale (benoit.combemale@irisa.fr) and Djamel Khelladi (djamel-eddine.khelladi@irisa.fr). 
 
 ## References
 
-1. J. Thones. “Microservices”. In: IEEE Software 32.1 (2015), pp. 116–116. doi: 10.1109/MS.2015.11.
-2. M. McGarr, E. Bukoski, and B. Moyles. How We Build Code at Netflix. 2016. url: http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html.
-3. How We Use Backstage at Spotify. 2020. url: https://engineering.atspotify.com/2020/04/21/how-we-use-backstage-at-spotify/.
-4. Einas Haddad. Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow. 2015. url: https://eng.uber.com/service-oriented-architecture/.
-5. Benoit Combemale et al. Engineering Modeling Languages: Turning Domain Knowledge into Tools. Chapman and Hall/CRC, Nov. 2016, p. 398. url: http: //mdebook.irisa.fr/
-6. Douglas C. Schmidt. “Guest Editor’s Introduction: Model-Driven Engineering”. In: Computer 39.2 (Feb. 2006), pp. 25–31. issn: 0018-9162. doi: 10.1109/ MC.2006.58. url: https://doi.org/10.1109/MC.2006.58.
+- Fabio Niephaus et al.. “Example-Based Live Programming for Everyone: Building Language-agnostic Tools for Live Programming with LSP and GraalVM”, Onward! 2020 
+- McDirmid, Sean. “Usable live programming”, Onwards! 2013 
+- Santolucito, Mark, William T. Hallahan, and Ruzica Piskac. “Live programming by example.” In Extended Abstracts of the CHI 2019 
+- Hidehiko Masuhara, Shusuke Takahashi, Yusuke Izawa, Youyou Cong. “Toward a Multi-Language and Multi-Environment Framework for Live Programming”, LIVE 2020. 
+- Würthinger, Thomas, et al. “One VM to rule them all”, Onward! 2013 
+- Niephaus, Fabio, Tim Felgentreff, and Robert Hirschfeld. “GraalSqueak: toward a smalltalk-based tooling platform for polyglot programming” In Proc. of MPLR 2019 
+- Niephaus, Fabio, Tim Felgentreff, and Robert Hirschfeld. “Towards polyglot adapters for the graalvm” In Proc. of Programming 2019.
