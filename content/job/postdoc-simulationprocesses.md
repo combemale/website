@@ -1,6 +1,6 @@
 +++
 title = "Postdoctoral position: A programming model for simulation processes"
-date = 2021-01-01
+date = 2021-08-01
 math = false
 highlight = false
 

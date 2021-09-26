@@ -1,6 +1,6 @@
 +++
 title = "PhD Thesis: DevOps for Industry 5.0."
-date = 2020-08-01
+date = 2021-08-01
 math = false
 highlight = false
 
