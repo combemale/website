@@ -5,12 +5,189 @@
     <link>https://people.irisa.fr/Benoit.Combemale/</link>
       <atom:link href="https://people.irisa.fr/Benoit.Combemale/index.xml" rel="self" type="application/rss+xml" />
     <description>Benoit Combemale</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Benoit Combemale © 2021</copyright><lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://people.irisa.fr/Benoit.Combemale/images/icon_hube7fc2a0f48f358a265c208b4572e7f9_36583_512x512_fill_lanczos_center_2.png</url>
       <title>Benoit Combemale</title>
       <link>https://people.irisa.fr/Benoit.Combemale/</link>
     </image>
+    
+    <item>
+      <title>Litterature on Software Engienering</title>
+      <link>https://people.irisa.fr/Benoit.Combemale/course/papers/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://people.irisa.fr/Benoit.Combemale/course/papers/</guid>
+      <description>&lt;h2 id=&#34;digitalization-and-software-industry&#34;&gt;Digitalization and Software Industry&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://dx.doi.org/10.1109/MS.2019.2956701&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Case for Human Values in Software Engineering&lt;/a&gt;. Jon Whittle, Maria Angela Ferrario, Will Simm, Waqar Hussain. In IEEE Softw. 38(1): 106-113 (2021)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://doi.org/10.1145/3213763&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Is software the result of top-down intelligent design or evolution?&lt;/a&gt;. Edward A. Lee. 2018. Commun. ACM 61, 9 (August 2018), 34-36. (
+&lt;a href=&#34;https://youtu.be/WBlWc6fJL_c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; and 
+&lt;a href=&#34;https://mitpress.mit.edu/books/plato-and-nerd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;book&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://dx.doi.org/10.1109/MS.2016.12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdsourcing in Software Engineering: Models, Motivations, and Challenges&lt;/a&gt;. LaToza, Thomas &amp;amp; van der Hoek, Andre. IEEE Software (2016). 33. 74-80. 10.1109/MS.2016.12.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01590958/document&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software Heritage: Why and How to Preserve Software Source Code&lt;/a&gt;, by Roberto Di Cosmo, Stefano Zacchiroli. 2017.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.wsj.com/articles/SB10001424053111903480904576512250915629460&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why Software Is Eating The World&lt;/a&gt;, By Marc Andreessen, In wsj. August 20, 2011.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;software-engineering-in-practices&#34;&gt;Software Engineering in Practices&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://doi.org/10.1145/3453932&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software development in disruptive times&lt;/a&gt;, by João Varajão. 2021. &lt;i&gt;Commun. ACM&lt;/i&gt; 64, 10 (October 2021), 32–35.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cacm.acm.org/magazines/2019/9/238968-surviving-software-dependencies/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surviving Software Dependencies&lt;/a&gt;, by Russ Cox, Communications of the ACM, September 2019.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1702.01715.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software Engineering at Google&lt;/a&gt;, by Fergus Henderson, 2019.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2005.10388&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why are many business instilling a DevOps culture into their organization?&lt;/a&gt;, by Diaz, J., López-Fernández, D., Perez, J., and González-Prieto, Á., 2020.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why Google Stores Billions of Lines of Code in a Single Repository&lt;/a&gt;, by Rachel Potvin, Josh Levenberg. In Communications of the ACM, Vol. 59 No. 7, Pages 78-87, 2016.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.frachtenberg.org/eitan/pubs/papers/feitelson13:devops.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Development and Deployment at Facebook&lt;/a&gt;, by Dror Feitelson, Eitan Frachtenberg, and Kent Beck. In IEEE Internet Computing 17, 4 (July 2013).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-99241-9_1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deploying Search Based Software Engineering with Sapienz at Facebook&lt;/a&gt;, by Nadia Alshahwan, Xinbo Gao, Mark Harman, Yue Jia, Ke Mao, Alexander Mols, Taijin Tei, and Ilya Zorin. In Search-Based Software Engineering 2018, Springer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://queue.acm.org/detail.cfm?id=2499552&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The antifragile organization&lt;/a&gt;, by Ariel Tseitlin. In Commun. ACM 56, 8 (August 2013).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://engineering.atspotify.com/2020/04/21/how-we-use-backstage-at-spotify/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How We Use Backstage at Spotify&lt;/a&gt;. 2020.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How We Build Code at Netflix&lt;/a&gt;. M. McGarr, E. Bukoski, and B. Moyles. 2016.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://eng.uber.com/service-oriented-architecture/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Einas Haddad. Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow&lt;/a&gt;. 2015.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;&#34;&gt;Microservices&lt;/a&gt;. J. Thones. In: IEEE Software 32.1 (2015), pp. 116–116. doi: 10.1109/MS.2015.11.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;software-testing-and-resilience-engineering&#34;&gt;Software Testing and Resilience Engineering&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://research.google/pubs/pub50424/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Long Term Effects of Mutation Testing&lt;/a&gt;, by Goran Petrovic Gordon Fraser Marko Ivanković René Just. 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE), IEEE, pp. 910-921&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://research.google/pubs/pub50658/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Practical Mutation Testing at Scale: A view from Google&lt;/a&gt;, by Goran Petrovic Gordon Fraser Marko Ivanković René Just. IEEE Transactions on Software Engineering (2021)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2010.13464&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What It Would Take to Use Mutation Testing in Industry&amp;ndash;A Study at Facebook&lt;/a&gt;, by Moritz Beller, Chu-Pan Wong, Johannes Bader, Andrew Scott, Mateusz Machalica, Satish Chandra, Erik Meijer. In ICSE 2021 SEIP - Software Engineering in Practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- 
+&gt; [State of Mutation Testing at Google](https://research.google.com/pubs/pub46584.html), by Goran Petrovic and Marko Ivankovic. In Proceedings of the 40th International Conference on Software Engineering 2018 (SEIP). 
+--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://mir.cs.illinois.edu/marinov/publications/HiltonETAL18TestCoverageEvolution.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Large-Scale Study of Test Coverage Evolution&lt;/a&gt;, by Michael Hilton, Jonathan Bell and Darko Marinov. In Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering (ASE ’18), ACM.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.computer.org/cms/Computer.org/ComputingNow/issues/2016/07/mso2016030035.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chaos Engineering&lt;/a&gt;, by Ali Basiri, Niosha Behnam, Ruud de Rooij, Lorin Hochstein, Luke Kosewski, Justin Reynolds, Casey Rosenthal. In IEEE Software vol. 33 no. 3, p. 35-41, 2016.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1905.04648&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automating chaos experiments in production&lt;/a&gt;, Ali Basiri, Lorin Hochstein, Nora Jones, Haley Tucker. In Proceedings of the 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP &amp;lsquo;19). IEEE Press, Piscataway, NJ, USA, 31-40.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1907.01466&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Understanding flaky tests: the developer’s perspective&lt;/a&gt;. Moritz Eck, Fabio Palomba, Marco Castelluccio, and Alberto Bacchelli. 2019.  In ESEC/FSE 2019.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;programming-language&#34;&gt;Programming Language&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cacm.acm.org/magazines/2017/10/221326-a-large-scale-study-of-programming-languages-and-code-quality-in-github/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Large-Scale Study of Programming Languages and Code Quality in GitHub&lt;/a&gt;, by Baishakhi Ray, Daryl Posnett, Premkumar Devanbu, Vladimir Filkov. In Communications of the ACM, Vol. 60 No. 10, Pages 91-100, Oct. 2017.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cacm.acm.org/magazines/2018/3/225475-a-programmable-programming-language/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A programmable programming language&lt;/a&gt;, by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi, Eli Barzilay, Jay McCarthy, and Sam Tobin-Hochstadt. In Communications of the ACM 61, 3, Pages 62-71, Feb. 2018. DOI: &lt;a href=&#34;https://doi.org/10.1145/3127323&#34;&gt;https://doi.org/10.1145/3127323&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;typing&#34;&gt;Typing&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://tomasp.net/academic/papers/against-types/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Against a Universal Definition of &amp;lsquo;Type&amp;rsquo;&lt;/a&gt;, by Tomas Petricek. In Proceedings of Onward! Essays 2015.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.cl.cam.ac.uk/~srk31/research/papers/kell14in-author-version.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In Search of Types&lt;/a&gt;, by Stephen Kell. In Proceedings of the 2014 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming &amp;amp; Software (Onward! 2014).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://ttendency.cs.ucl.ac.uk/projects/type_study/documents/type_study.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;To Type or Not to Type: Quantifying Detectable Bugs in JavaScript&lt;/a&gt; by Z. Gao, C. Bird and E. T. Barr. In IEEE/ACM 39th International Conference on Software Engineering (ICSE&#39;17), Buenos Aires, 2017, pp. 758-769.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;On understanding data abstraction, revisited&lt;/a&gt; by 	William R. Cook. In the 24th ACM SIGPLAN conference on Object Oriented Programming Systems Languages and Applications (OOPSLA &amp;lsquo;09), 2009.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;approximate-computing&#34;&gt;Approximate computing&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.researchgate.net/profile/Sparsh_Mittal/publication/290194892_A_Survey_Of_Techniques_for_Approximate_Computing/links/569570a208ae425c68983c70/A-Survey-Of-Techniques-for-Approximate-Computing.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A survey of techniques for approximate computing&lt;/a&gt;, by Mittal, S. ACM Computing Surveys (CSUR), 48(4), 62 (2016).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--
+##### Additional references:
+
+&gt; [DieHard: probabilistic memory safety for unsafe languages](https://people.cs.umass.edu/~emery/pubs/fp014-berger.pdf), by Emery D. Berger and Benjamin G. Zorn. In Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI &#39;06).
+--&gt;
+&lt;h2 id=&#34;software-modularity&#34;&gt;Software modularity&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://scg.unibe.ch/archive/papers/Scha02bTraits.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Traits: Composable Units of Behavior&lt;/a&gt;, by Nathanael Schärli, Stéphane Ducasse, Oscar Nierstrasz and Andrew Black. In European Conference on Object-Oriented Programming (ECOOP 2003).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.cs.ubc.ca/~gregor/papers/kiczales-ECOOP1997-AOP.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aspect-oriented programming&lt;/a&gt;, by Kiczales G. et al. European Conference on Object-Oriented Programming (ECOOP 1997).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;software-synthesis&#34;&gt;Software synthesis&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://people.csail.mit.edu/fanl/papers/prophet-popl16.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automatic patch generation by learning correct code&lt;/a&gt;, by Fan Long and Martin Rinard. In Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL &amp;lsquo;16). ACM, New York, NY, USA, 298-312.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--
+##### Additional references:
+
+&gt; [An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems](http://dspace.mit.edu/bitstream/handle/1721.1/94337/MIT-CSAIL-TR-2015-003.pdf), by Zichao Qi, Fan Long, Sara Achour, and Martin Rinard. In Proceedings of the 2015 International Symposium on Software Testing and Analysis (ISSTA 2015). ACM, New York, NY, USA, 24-36.
+
+--&gt;
+&lt;h2 id=&#34;scientific-method&#34;&gt;Scientific Method&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3241743&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The ABC of Software Engineering Research&lt;/a&gt;. Klaas-Jan Stol and Brian Fitzgerald. 2018. ACM Trans. Softw. Eng. Methodol. 27, 3, Article 11 (October 2018).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cacm.acm.org/magazines/2016/3/198873-repeatability-in-computer-systems-research/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repeatability in Computer Systems Research&lt;/a&gt; By Christian Collberg, Todd A. Proebsting. Communications of the ACM, March 2016, Vol. 59 No. 3, Pages 62-69.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Internship: data-centric software engineering.</title>
@@ -1074,183 +1251,6 @@ The candidate will work more specifically with
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://people.irisa.fr/Benoit.Combemale/student/jouneaux-msc/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Litterature on Software Engienering</title>
-      <link>https://people.irisa.fr/Benoit.Combemale/course/papers/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://people.irisa.fr/Benoit.Combemale/course/papers/</guid>
-      <description>&lt;h2 id=&#34;digitalization-and-software-industry&#34;&gt;Digitalization and Software Industry&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1109/MS.2019.2956701&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Case for Human Values in Software Engineering&lt;/a&gt;. Jon Whittle, Maria Angela Ferrario, Will Simm, Waqar Hussain. In IEEE Softw. 38(1): 106-113 (2021)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1145/3213763&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Is software the result of top-down intelligent design or evolution?&lt;/a&gt;. Edward A. Lee. 2018. Commun. ACM 61, 9 (August 2018), 34-36. (
-&lt;a href=&#34;https://youtu.be/WBlWc6fJL_c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; and 
-&lt;a href=&#34;https://mitpress.mit.edu/books/plato-and-nerd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;book&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1109/MS.2016.12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdsourcing in Software Engineering: Models, Motivations, and Challenges&lt;/a&gt;. LaToza, Thomas &amp;amp; van der Hoek, Andre. IEEE Software (2016). 33. 74-80. 10.1109/MS.2016.12.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01590958/document&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software Heritage: Why and How to Preserve Software Source Code&lt;/a&gt;, by Roberto Di Cosmo, Stefano Zacchiroli. 2017.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.wsj.com/articles/SB10001424053111903480904576512250915629460&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why Software Is Eating The World&lt;/a&gt;, By Marc Andreessen, In wsj. August 20, 2011.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;software-engineering-in-practices&#34;&gt;Software Engineering in Practices&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1145/3453932&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software development in disruptive times&lt;/a&gt;, by João Varajão. 2021. &lt;i&gt;Commun. ACM&lt;/i&gt; 64, 10 (October 2021), 32–35.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://cacm.acm.org/magazines/2019/9/238968-surviving-software-dependencies/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surviving Software Dependencies&lt;/a&gt;, by Russ Cox, Communications of the ACM, September 2019.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/pdf/1702.01715.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software Engineering at Google&lt;/a&gt;, by Fergus Henderson, 2019.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/2005.10388&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why are many business instilling a DevOps culture into their organization?&lt;/a&gt;, by Diaz, J., López-Fernández, D., Perez, J., and González-Prieto, Á., 2020.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why Google Stores Billions of Lines of Code in a Single Repository&lt;/a&gt;, by Rachel Potvin, Josh Levenberg. In Communications of the ACM, Vol. 59 No. 7, Pages 78-87, 2016.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.frachtenberg.org/eitan/pubs/papers/feitelson13:devops.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Development and Deployment at Facebook&lt;/a&gt;, by Dror Feitelson, Eitan Frachtenberg, and Kent Beck. In IEEE Internet Computing 17, 4 (July 2013).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-99241-9_1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deploying Search Based Software Engineering with Sapienz at Facebook&lt;/a&gt;, by Nadia Alshahwan, Xinbo Gao, Mark Harman, Yue Jia, Ke Mao, Alexander Mols, Taijin Tei, and Ilya Zorin. In Search-Based Software Engineering 2018, Springer.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://queue.acm.org/detail.cfm?id=2499552&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The antifragile organization&lt;/a&gt;, by Ariel Tseitlin. In Commun. ACM 56, 8 (August 2013).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://engineering.atspotify.com/2020/04/21/how-we-use-backstage-at-spotify/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How We Use Backstage at Spotify&lt;/a&gt;. 2020.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How We Build Code at Netflix&lt;/a&gt;. M. McGarr, E. Bukoski, and B. Moyles. 2016.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://eng.uber.com/service-oriented-architecture/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Einas Haddad. Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow&lt;/a&gt;. 2015.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;&#34;&gt;Microservices&lt;/a&gt;. J. Thones. In: IEEE Software 32.1 (2015), pp. 116–116. doi: 10.1109/MS.2015.11.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;software-testing-and-resilience-engineering&#34;&gt;Software Testing and Resilience Engineering&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://research.google/pubs/pub50424/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Long Term Effects of Mutation Testing&lt;/a&gt;, by Goran Petrovic Gordon Fraser Marko Ivanković René Just. 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE), IEEE, pp. 910-921&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://research.google/pubs/pub50658/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Practical Mutation Testing at Scale: A view from Google&lt;/a&gt;, by Goran Petrovic Gordon Fraser Marko Ivanković René Just. IEEE Transactions on Software Engineering (2021)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/2010.13464&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What It Would Take to Use Mutation Testing in Industry&amp;ndash;A Study at Facebook&lt;/a&gt;, by Moritz Beller, Chu-Pan Wong, Johannes Bader, Andrew Scott, Mateusz Machalica, Satish Chandra, Erik Meijer. In ICSE 2021 SEIP - Software Engineering in Practice.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!-- 
-&gt; [State of Mutation Testing at Google](https://research.google.com/pubs/pub46584.html), by Goran Petrovic and Marko Ivankovic. In Proceedings of the 40th International Conference on Software Engineering 2018 (SEIP). 
---&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://mir.cs.illinois.edu/marinov/publications/HiltonETAL18TestCoverageEvolution.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Large-Scale Study of Test Coverage Evolution&lt;/a&gt;, by Michael Hilton, Jonathan Bell and Darko Marinov. In Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering (ASE ’18), ACM.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.computer.org/cms/Computer.org/ComputingNow/issues/2016/07/mso2016030035.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chaos Engineering&lt;/a&gt;, by Ali Basiri, Niosha Behnam, Ruud de Rooij, Lorin Hochstein, Luke Kosewski, Justin Reynolds, Casey Rosenthal. In IEEE Software vol. 33 no. 3, p. 35-41, 2016.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1905.04648&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automating chaos experiments in production&lt;/a&gt;, Ali Basiri, Lorin Hochstein, Nora Jones, Haley Tucker. In Proceedings of the 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP &amp;lsquo;19). IEEE Press, Piscataway, NJ, USA, 31-40.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1907.01466&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Understanding flaky tests: the developer’s perspective&lt;/a&gt;. Moritz Eck, Fabio Palomba, Marco Castelluccio, and Alberto Bacchelli. 2019.  In ESEC/FSE 2019.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;programming-language&#34;&gt;Programming Language&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://cacm.acm.org/magazines/2017/10/221326-a-large-scale-study-of-programming-languages-and-code-quality-in-github/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Large-Scale Study of Programming Languages and Code Quality in GitHub&lt;/a&gt;, by Baishakhi Ray, Daryl Posnett, Premkumar Devanbu, Vladimir Filkov. In Communications of the ACM, Vol. 60 No. 10, Pages 91-100, Oct. 2017.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://cacm.acm.org/magazines/2018/3/225475-a-programmable-programming-language/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A programmable programming language&lt;/a&gt;, by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi, Eli Barzilay, Jay McCarthy, and Sam Tobin-Hochstadt. In Communications of the ACM 61, 3, Pages 62-71, Feb. 2018. DOI: &lt;a href=&#34;https://doi.org/10.1145/3127323&#34;&gt;https://doi.org/10.1145/3127323&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;typing&#34;&gt;Typing&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://tomasp.net/academic/papers/against-types/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Against a Universal Definition of &amp;lsquo;Type&amp;rsquo;&lt;/a&gt;, by Tomas Petricek. In Proceedings of Onward! Essays 2015.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.cl.cam.ac.uk/~srk31/research/papers/kell14in-author-version.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In Search of Types&lt;/a&gt;, by Stephen Kell. In Proceedings of the 2014 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming &amp;amp; Software (Onward! 2014).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://ttendency.cs.ucl.ac.uk/projects/type_study/documents/type_study.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;To Type or Not to Type: Quantifying Detectable Bugs in JavaScript&lt;/a&gt; by Z. Gao, C. Bird and E. T. Barr. In IEEE/ACM 39th International Conference on Software Engineering (ICSE&#39;17), Buenos Aires, 2017, pp. 758-769.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;On understanding data abstraction, revisited&lt;/a&gt; by 	William R. Cook. In the 24th ACM SIGPLAN conference on Object Oriented Programming Systems Languages and Applications (OOPSLA &amp;lsquo;09), 2009.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;approximate-computing&#34;&gt;Approximate computing&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.researchgate.net/profile/Sparsh_Mittal/publication/290194892_A_Survey_Of_Techniques_for_Approximate_Computing/links/569570a208ae425c68983c70/A-Survey-Of-Techniques-for-Approximate-Computing.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A survey of techniques for approximate computing&lt;/a&gt;, by Mittal, S. ACM Computing Surveys (CSUR), 48(4), 62 (2016).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!--
-##### Additional references:
-
-&gt; [DieHard: probabilistic memory safety for unsafe languages](https://people.cs.umass.edu/~emery/pubs/fp014-berger.pdf), by Emery D. Berger and Benjamin G. Zorn. In Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI &#39;06).
---&gt;
-&lt;h2 id=&#34;software-modularity&#34;&gt;Software modularity&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://scg.unibe.ch/archive/papers/Scha02bTraits.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Traits: Composable Units of Behavior&lt;/a&gt;, by Nathanael Schärli, Stéphane Ducasse, Oscar Nierstrasz and Andrew Black. In European Conference on Object-Oriented Programming (ECOOP 2003).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.cs.ubc.ca/~gregor/papers/kiczales-ECOOP1997-AOP.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aspect-oriented programming&lt;/a&gt;, by Kiczales G. et al. European Conference on Object-Oriented Programming (ECOOP 1997).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;software-synthesis&#34;&gt;Software synthesis&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://people.csail.mit.edu/fanl/papers/prophet-popl16.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automatic patch generation by learning correct code&lt;/a&gt;, by Fan Long and Martin Rinard. In Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL &amp;lsquo;16). ACM, New York, NY, USA, 298-312.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!--
-##### Additional references:
-
-&gt; [An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems](http://dspace.mit.edu/bitstream/handle/1721.1/94337/MIT-CSAIL-TR-2015-003.pdf), by Zichao Qi, Fan Long, Sara Achour, and Martin Rinard. In Proceedings of the 2015 International Symposium on Software Testing and Analysis (ISSTA 2015). ACM, New York, NY, USA, 24-36.
-
---&gt;
-&lt;h2 id=&#34;scientific-method&#34;&gt;Scientific Method&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3241743&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The ABC of Software Engineering Research&lt;/a&gt;. Klaas-Jan Stol and Brian Fitzgerald. 2018. ACM Trans. Softw. Eng. Methodol. 27, 3, Article 11 (October 2018).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://cacm.acm.org/magazines/2016/3/198873-repeatability-in-computer-systems-research/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repeatability in Computer Systems Research&lt;/a&gt; By Christian Collberg, Todd A. Proebsting. Communications of the ACM, March 2016, Vol. 59 No. 3, Pages 62-69.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
     </item>
     
     <item>
