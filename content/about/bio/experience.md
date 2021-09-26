@@ -28,7 +28,16 @@ date_format = "Jan 2006"
   location = "Rennes, France"
   date_start = "2020-09-01"
   date_end = ""
-  description = """ Teacher in the Engineering School ESIR, and Researcher in the IRISA/Inria team DiverSE. """
+  description = """ Teacher in the Engineering School ESIR, and Researcher in the IRISA/Inria team DiverSE. Since 2021, Head of the Computer Science Department at ESIR. """
+
+[[experience]]
+  title = "Adjunct Researcher"
+  company = "Research Institute in Computer Science of Toulouse"
+  company_url = "https://www.irit.fr/"
+  location = "Toulouse, France"
+  date_start = "2021-09-01"
+  date_end = ""
+  description = """ Adjunct researcher in the SM@RT team of the CNRS IRIT Labs. """
 
 [[experience]]
   title = "Research Scientist"
