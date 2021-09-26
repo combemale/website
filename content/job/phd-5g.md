@@ -2,6 +2,7 @@
 title = "PhD Thesis: Smart Microservicization, Deployment and Dynamic Reconfiguration of Distributed Systems"
 date = 2020-12-01
 math = false
+draft = true
 highlight = false
 
 # Optional featured image (relative to `static/img/` folder).

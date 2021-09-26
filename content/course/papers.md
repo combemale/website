@@ -23,6 +23,8 @@ caption = ""
 
 ## Digitalization and Software Industry
 
+> [A Case for Human Values in Software Engineering](http://dx.doi.org/10.1109/MS.2019.2956701). Jon Whittle, Maria Angela Ferrario, Will Simm, Waqar Hussain. In IEEE Softw. 38(1): 106-113 (2021)
+
 > [Is software the result of top-down intelligent design or evolution?](https://doi.org/10.1145/3213763). Edward A. Lee. 2018. Commun. ACM 61, 9 (August 2018), 34-36. ([video](https://youtu.be/WBlWc6fJL_c) and [book](https://mitpress.mit.edu/books/plato-and-nerd))
 
 > [Crowdsourcing in Software Engineering: Models, Motivations, and Challenges](http://dx.doi.org/10.1109/MS.2016.12). LaToza, Thomas & van der Hoek, Andre. IEEE Software (2016). 33. 74-80. 10.1109/MS.2016.12. 
@@ -32,6 +34,8 @@ caption = ""
 > [Why Software Is Eating The World](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460), By Marc Andreessen, In wsj. August 20, 2011.
 
 ## Software Engineering in Practices
+
+> [Software development in disruptive times](https://doi.org/10.1145/3453932), by João Varajão. 2021. <i>Commun. ACM</i> 64, 10 (October 2021), 32–35.
 
 > [Surviving Software Dependencies](https://cacm.acm.org/magazines/2019/9/238968-surviving-software-dependencies/fulltext), by Russ Cox, Communications of the ACM, September 2019.
 
@@ -57,7 +61,15 @@ caption = ""
 
 ## Software Testing and Resilience Engineering
 
-> [State of Mutation Testing at Google](https://research.google.com/pubs/pub46584.html), by Goran Petrovic and Marko Ivankovic. In Proceedings of the 40th International Conference on Software Engineering 2018 (SEIP).
+> [Long Term Effects of Mutation Testing](https://research.google/pubs/pub50424/), by Goran Petrovic Gordon Fraser Marko Ivanković René Just. 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE), IEEE, pp. 910-921
+
+> [Practical Mutation Testing at Scale: A view from Google](https://research.google/pubs/pub50658/), by Goran Petrovic Gordon Fraser Marko Ivanković René Just. IEEE Transactions on Software Engineering (2021)
+
+> [What It Would Take to Use Mutation Testing in Industry--A Study at Facebook](https://arxiv.org/abs/2010.13464), by Moritz Beller, Chu-Pan Wong, Johannes Bader, Andrew Scott, Mateusz Machalica, Satish Chandra, Erik Meijer. In ICSE 2021 SEIP - Software Engineering in Practice. 
+
+<!-- 
+> [State of Mutation Testing at Google](https://research.google.com/pubs/pub46584.html), by Goran Petrovic and Marko Ivankovic. In Proceedings of the 40th International Conference on Software Engineering 2018 (SEIP). 
+-->
 
 > [A Large-Scale Study of Test Coverage Evolution](http://mir.cs.illinois.edu/marinov/publications/HiltonETAL18TestCoverageEvolution.pdf), by Michael Hilton, Jonathan Bell and Darko Marinov. In Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering (ASE ’18), ACM.
 
@@ -110,7 +122,7 @@ caption = ""
 
 -->
 
-## Scientific Methods
+## Scientific Method
 
 > [The ABC of Software Engineering Research](https://dl.acm.org/doi/10.1145/3241743). Klaas-Jan Stol and Brian Fitzgerald. 2018. ACM Trans. Softw. Eng. Methodol. 27, 3, Article 11 (October 2018).
 
