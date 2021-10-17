@@ -1,10 +1,9 @@
 +++
-title = "Behavioral Interfaces for Executable DSLs"
-date = "2020-01-01"
-draft = true
+title = "A Hitchhiker's Guide to Model-Driven Engineering for Data-Centric Systems"
+date = "2021-04-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Dorian Leroy", "Erwan Bousse", "Manuel Wimmer", "Tanja Mayerhofer", "Benoit Combemale", "Wieland Schwinger"]
+authors = ["Benoit Combemale","Jörg Kienzle", "Gunter Mussbacher", "Hyacinth Ali", "Daniel Amyot", "Mojtaba Bagherzadeh", "Edouard Batot", "Nelly Bencomo", "Benjamin Benni", "Jean-Michel Bruel", "Jordi Cabot", "Betty Cheng", "Philippe Collet", "Gregor Engels", "Robert Heinrich", "Jean-Marc Jézéquel", "Anne Koziolek", "Sébastien Mosser", "Ralf Reussner", "Houari Sahraoui", "Rijul Saini", "June Sallou", "Serge Stinckwich", "Eugene Syriani", "Manuel Wimmer"] 
 
 # Publication type.
 # Legend:
@@ -18,11 +17,11 @@ authors = ["Dorian Leroy", "Erwan Bousse", "Manuel Wimmer", "Tanja Mayerhofer", 
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Springer Journal on Software and Systems Modeling (SoSyM)"
-publication_short = "In *SoSyM*"
+publication = "IEEE Software"
+publication_short = "In *IEEE Software*"
 
 # Abstract and ,optional shortened version.
-abstract = "Executable Domain-Specific Languages (DSLs) enable the execution of behavioral models. While an ex- ecution is mostly driven by the model content (e.g., con- trol structures), many use cases require interacting with the running model, such as simulating scenarios in an au- tomated or interactive way, or coupling the model with other models of the system or environment. The manage- ment of these interactions is usually hardcoded into the semantics of the DSL, which prevents its reuse for other DSLs and the provision of generic tools (e.g., interactive debugger). In this paper, we propose a metalanguage for complementing the definition of executable DSLs with explicit behavioral interfaces to enable external tools to interact with executed models in a unified way. We im- plemented the proposed metalanguage in the GEMOC Studio, and show how behavioral interfaces enable the realization of tools that are generic, and thus, usable for different executable DSLs."
+abstract = ""
 
 # Featured image thumbnail (optional)
 # image_preview = ""
@@ -36,8 +35,8 @@ selected = true
 # projects = ["anrgemoc", "clarity"]
 
 # Links (optional).
-url_pdf = "#"
-url_preprint = "#"
+url_pdf = "https://doi.ieeecomputersociety.org/10.1109/MS.2020.2995125"
+url_preprint = "https://hal.inria.fr/hal-02612087"
 # url_code = "#"
 # url_dataset = "#"
 # url_project = "#"

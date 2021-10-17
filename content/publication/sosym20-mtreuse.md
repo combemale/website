@@ -1,6 +1,7 @@
 +++
 title = "Comparing and classifying model transformation reuse approaches across metamodels"
 date = "2020-01-01"
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Jean-Michel Bruel", "Benoit Combemale", "Esther Guerra", "Jean-Marc Jézéquel", "Joerg Kienzle", "Juan de Lara", "Gunter Mussbacher", "Eugene Syriani", "Hans Vangheluwe"]
